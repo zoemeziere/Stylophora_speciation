@@ -9,3 +9,5 @@
 * treemix.sh - bash script transforming a VCF file into a plink format, making use of the python script plink2treemix.py by Thom Nelson (https://github.com/thomnelson/tools/blob/master/plink2treemix.py) to convert plink clustered allele frequencies to treemix format and running TreeMix for 0 to 4 migration edges ana 10 iterations.
 
 * admixture.sh - bash script performing ADMIXTURE from a .bed file for K2 to K15. Outputs log files and CV errors. 
+
+* dadi_jobarray.sh - bash script to run dadi optimisation models as a job array. I used the folder structure and script from K. Prata (https://github.com/kepra3/kp_dadi) and integrated this in the Scripts folder.
