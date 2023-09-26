@@ -9,3 +9,5 @@
 * admixture.sh - bash script performing ADMIXTURE from a .bed file for K2 to K15 and outputing log files and cross validation errors. 
 
 * dadi_jobarray.sh - bash script running dadi optimisation models as a job array, using the folder structure and script developped by K. Prata (https://github.com/kepra3/kp_dadi)
+
+* Dxy.sh - bash script calculating Dxy from a VCF file using BCFTOOL, VCFTOOLS and PIXY. See https://pixy.readthedocs.io/en/latest/ for more details.
