@@ -35,8 +35,6 @@ def main(snps, model, masked, method, folds, int_params, PTS):
     print("FST of SFS: {}".format(numpy.around(data.Fst(), 2)))
     print("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n")
 
-    # Need to manually alter the upper and lower parameter limits, model functions are defined in demo_models_kp.py
-    # Use nicknames for models, e.g., "snm" instead of model function name, e.g., "no_divergence"
     # Define metadata for models
     if model == "snm":
         # standard neutral model, no divergence
@@ -79,59 +77,12 @@ def main(snps, model, masked, method, folds, int_params, PTS):
         upper = [150, 150, 10, 15, 15]
         lower = [0.001, 0.001, 0.001, 0.001, 0.001]
         model_fun = demo_models_kp.anc_sym_migration
-    elif model == "anc_asym_mig":
-        num = 6
-        p_labels = "nu1, nu2, m12, m21, T1, T2"
-        upper = [150, 150, 10, 10, 15, 15]
-        lower = [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
-        model_fun = demo_models_kp.anc_asym_migration
     elif model == "sec_cont_sym_mig":
         num = 5
         p_labels = "nu1, nu2, m, T1, T2"
         upper = [150, 150, 10, 15, 15]
         lower = [0.001, 0.001, 0.001, 0.001, 0.001]
         model_fun = demo_models_kp.sec_contact_sym_migration
-    elif model == "sec_cont_asym_mig":
-        num = 6
-        p_labels = "nu1, nu2, m12, m21, T1, T2"
-        upper = [150, 150, 10, 10, 15, 15]
-        lower = [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
-        model_fun = demo_models_kp.sec_contact_asym_migration
-    elif model == "iso_inbred":
-        # divergence with inbreeding
-        num = 5
-        p_labels = "nu1, nu2, F1, F2, T"
-        upper = [150, 150, 1, 1, 15]
-        lower = [0.001, 0.001, 0.00001, 0.00001, 0.001]
-        model_fun = demo_models_kp.iso_inbreeding
-    elif model == "mig_inbred":
-        # divergence with migration with inbreeding
-        num = 6
-        p_labels = "nu1, nu2, F1, F2, m, T"
-        upper = [150, 150, 1, 1, 10, 15]
-        lower = [0.001, 0.001, 0.00001, 0.00001, 0.001, 0.001]
-        model_fun = demo_models_kp.mig_inbreeding
-    elif model == "anc_mig_inbred":
-        # ancient migration with inbreeding
-        num = 7
-        p_labels = "nu1, nu2, F1, F2, m, T1, T2"
-        upper = [150, 150, 1, 1, 10, 15, 15]
-        lower = [0.001, 0.001, 0.00001, 0.00001, 0.001, 0.001, 0.001]
-        model_fun = demo_models_kp.anc_sym_mig_inbred
-    elif model == "sec_cont_inbred":
-        # secondary contact with inbreeding
-        num = 7
-        p_labels = "nu1, nu2, F1, F2, m, T1, T2"
-        upper = [150, 150, 1, 1, 10, 15, 15]
-        lower = [0.001, 0.001, 0.00001, 0.00001, 0.001, 0.001, 0.001]
-        model_fun = demo_models_kp.sec_contact_sym_mig_inbred
-    elif model == "mig_be_inbred":
-        # population size changes with divergence with migration and inbreeding
-        num = 10
-        p_labels = "nu1, nu2, nu1a, nu2a, F1, F2, m1, m2,  T1, T2"
-        upper = [150, 150, 150, 150, 1, 1, 10, 10, 15, 15]
-        lower = [0.001, 0.001, 0.001, 0.001, 0.00001, 0.00001, 0.001, 0.001, 0.001, 0.001]
-        model_fun = demo_models_kp.mig_be_inbred
     else:
         print("model nickname undefined please check you are using the correct model nickname!")
 
@@ -151,42 +102,11 @@ def main(snps, model, masked, method, folds, int_params, PTS):
         p0 = [1] * num
     else:
         p0 = int_params
-    # Paste below your optimised params to start from a specified place.
-    # For example:
-    # if model == "iso_inbred":
-    #    if snps == "AG1-AG2":
-    #        p1 = [2.1498, 97.3976, 0.0374, 0.0231, 0.4141]
-    #    elif snps == "AL1-AL2":
-    #        p1 = [7.4065, 1.9955, 0.0302, 0.0148, 0.4264]
-    #    elif snps == "AG1-AL1":
-    #        p1 = [0.8382, 41.4364, 0.0371, 0.0229, 0.8367]
-    #    elif snps == "AG1-AL2":
-    #        p1 = [1.0488, 46.8787, 0.0234, 0.00001, 0.8585]
-    #    elif snps == "AG2-AL1":
-    #        p1 = [0.7615, 55.4268, 0.0261, 0.0712, 0.9558]
-    #    elif snps == "AG2-AL2":
-    #        p1 = [0.6783, 44.3377, 0.055, 0.0398, 0.7721]
-    #    else:
-    #        p1 = p0
-    # if using custom starting parameter values then comment the line below
-    p1 = p0
+    	p1 = p0
 
-    # Comments from software example (Gutenkunst et al., 2009)
-    # Make the extrapolating version of our demographic model function.
     func_ex = dadi.Numerics.make_extrap_log_func(model_fun)
 
-    # Comments taken from Gutenkunst et al. (2009)
-    # Perturb our parameters before optimisation. This does so by taking each
-    # parameter a up to a factor of "folds" up or down.
     p1 = dadi.Misc.perturb_params(p1, fold=folds, upper_bound=upper, lower_bound=lower)
-    # Do the optimization. By default we assume that theta is a free parameter,
-    # since it's trivial to find given the other parameters. If you want to fix
-    # theta, add a multinom=False to the call.
-    # The maxiter argument restricts how long the optimiser will run. For real
-    # runs, you will want to set this value higher (at least 10), to encourage
-    # better convergence. You will also want to run optimization several times
-    # using multiple sets of initial parameters, to be confident you've actually
-    # found the true maximum likelihood parameters.
 
     print('\nInitial parameters are {}\n'.format(numpy.around(p1, 2)))
     print('* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *')
@@ -196,8 +116,6 @@ def main(snps, model, masked, method, folds, int_params, PTS):
                                                  lower_bound=lower,
                                                  upper_bound=upper,
                                                  verbose=1, maxiter=1000)
-    # The verbose argument controls how often progress of the optimizer should be
-    # printed. It's useful to keep track of optimisation process.
 
     # Calculate sim model using parameters optimised (p_opt).
     sim_model = func_ex(param_opt, data.sample_sizes, PTS)
@@ -256,10 +174,5 @@ if __name__ == '__main__':
     # Need to manually define!
     # Define optimisation bounds
     PTS = [60, 80, 90]
-
-    # If you are wanting to export data to a specific location,
-    # uncomment the proceeding comment and argument parse,
-    # then add path variable to main function.
-    # path = "{}".format(args.out_path)
 
     main(snps, model, masked, method, folds, int_params, PTS)
