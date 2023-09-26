@@ -15,3 +15,4 @@ PCA_plot <- ggplot(PCA_all.df, aes(PC1, PC2, col = Stylo_clusters_metadata$Clust
   theme_bw() + theme(legend.position = "none", axis.text=element_text(size=16), axis.title=element_text(size=16)) +
   labs(x= paste0("PC1 (", signif(pve_all$X100...PCA_all.eig.1.10..sum.PCA_all.eig.1.10..[1], 3), "%)"),
        y = paste0("PC2 (", signif(pve_all$X100...PCA_all.eig.1.10..sum.PCA_all.eig.1.10..[2], 3), "%)"))
+
