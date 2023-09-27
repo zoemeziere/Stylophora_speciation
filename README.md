@@ -2,6 +2,8 @@
 
 ## Data
 
+* Stylo_all_final.vcf.gz - unfiltered VCF file obtained via IPYRAD
+
 ## Scripts
 
 ### 1. RAD data demultiplexing, variant calling and filtering
