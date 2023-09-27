@@ -1,8 +1,8 @@
 ## Scripts used to analyse the data for "Exploring coral speciation: five Stylophora pistillata taxa along a divergence continuum on the Great Barrier Reef"
 
-#Data
+# Data
 
-#Scripts
+# Scripts
 
 * ipyrad_steps.sh - bash script running ipyrad (https://ipyrad.readthedocs.io/en/master/) with standard parameters, ddRAD paired-end read data, and reference genome aligmment.
 
@@ -16,4 +16,4 @@
 
 * dadi_all.sh - bash script used for dadi analyses - uses folder structure and developped and slightly adapted from K. Prata (https://github.com/kepra3/kp_dadi)
 
-#Results
+# Results
