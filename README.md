@@ -35,5 +35,3 @@
     * compare_model.py - compares alternative models
     * condidence intervals - calculate confidence intervals around optimised parameters
     * nonparameteric_bootstrap - bootstrapping best fit model
-
-## Results
