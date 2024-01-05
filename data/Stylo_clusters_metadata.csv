@@ -1,0 +1,380 @@
+﻿Sample_name,EcoClusterID,fieldID,tagID,healthChart,locality,timeOfDay,depthOfBottominMeters,decimalLatitude,decimalLongitude,EcoLocationID_short,EcoClusterID.1,EcoReefID,EcoSiteID,EcoZoneID,EcoPlotID,eventEnteredBy,dayCollected,monthCollected,yearCollected,Cluster
+BLCH101A,Offshore Central GBR,31,Spis_51,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH105A,Offshore Central GBR,40,Spis_37,D1,Davies,11:30,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon 1,Shallow,2,Zoe Meziere,31,3,2022,Cluster1
+BLCH107A,Offshore Central GBR,22,Spis_46,C2,Davies,11:30,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon 1,Shallow,4,Zoe Meziere,31,3,2022,Cluster1
+BLCH108A,Offshore Central GBR,7,Spis_0,C1,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,1,Zoe Meziere,31,3,2022,Cluster1
+BLCH109A,Offshore Central GBR,18,Spis_10,D1,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,1,Zoe Meziere,31,3,2022,Cluster1
+BLCH10A,Offshore Central GBR,18,Spis_17,C2,Davies,14:30,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back 1,Shallow,4,Zoe Meziere,28,3,2022,Cluster1
+BLCH112A,Offshore Central GBR,30,Spis_4,C3,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,1,Zoe Meziere,31,3,2022,Cluster1
+BLCH114A,Offshore Central GBR,26,Spis_9,C2,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,1,Zoe Meziere,31,3,2022,Cluster1
+BLCH117A,Offshore Central GBR,38,Spis_21,C3,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,4,Zoe Meziere,31,3,2022,Cluster1
+BLCH118A,Offshore Central GBR,10,Spis_22,C2.5,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,4,Zoe Meziere,31,3,2022,Cluster1
+BLCH11A,Offshore Central GBR,11,Spis_43,C1,Davies,14:30,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back 1,Shallow,4,Zoe Meziere,28,3,2022,Cluster1
+BLCH120A,Offshore Central GBR,5,Spis_20,C2,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,4,Zoe Meziere,31,3,2022,Cluster1
+BLCH121A,Offshore Central GBR,31,Spis_19,C2,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,4,Zoe Meziere,31,3,2022,Cluster1
+BLCH122A,Offshore Central GBR,22,Spis_23,C2,Davies,15:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank 1,Shallow,4,Zoe Meziere,31,3,2022,Cluster1
+BLCH125A,Offshore Central GBR,8,Spis_1,C2,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster3
+BLCH126A,Offshore Central GBR,40,Spis_4,C2.5,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster3
+BLCH127A,Offshore Central GBR,4,Spis_22,C2.5,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster3
+BLCH129A,Offshore Central GBR,1,Spis_16,C2.5,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster5
+BLCH132A,Offshore Central GBR,28,Spis_14,C2.5,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster3
+BLCH135A,Offshore Central GBR,14,Spis_35,C2,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster5
+BLCH136A,Offshore Central GBR,31,Spis_36,D2,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster3
+BLCH139A,Offshore Central GBR,32,Spis_28,C2.5,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,2,Zoe Meziere,1,4,2022,Cluster3
+BLCH141A,Offshore Central GBR,20,Spis_32,C3,Chicken,9:00,5,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank 1,Shallow,2,Zoe Meziere,1,4,2022,Cluster3
+BLCH145A,Offshore Central GBR,1,Spis_9,C2,Chicken,10:30,5,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back 1,Shallow,1,Zoe Meziere,1,4,2022,Cluster1
+BLCH148A,Offshore Central GBR,16,Spis_3,C2,Chicken,10:30,5,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back 1,Shallow,2,Zoe Meziere,1,4,2022,Cluster1
+BLCH151A,Offshore Central GBR,17,Spis_8,C2,Chicken,10:30,5,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back 1,Shallow,3,Zoe Meziere,1,4,2022,Cluster1
+BLCH152A,Offshore Central GBR,3,Spis_13,C2,Chicken,10:30,5,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back 1,Shallow,3,Zoe Meziere,1,4,2022,Cluster1
+BLCH154A,Offshore Central GBR,33,Spis_11,C3,Chicken,10:30,5,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back 1,Shallow,3,Zoe Meziere,1,4,2022,Cluster1
+BLCH157A,Offshore Central GBR,34,Spis_34,C2,Chicken,10:30,5,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back 1,Shallow,4,Zoe Meziere,1,4,2022,Cluster1
+BLCH161A,Offshore Central GBR,30,Spis_1,C2,Chicken,15:30,5,-18.6604,147.7027,OCCH_BA2S,Offshore Central GBR,Chicken,Back 2,Shallow,1,Zoe Meziere,1,4,2022,Cluster5
+BLCH162A,Offshore Central GBR,38,Spis_0,C2,Chicken,15:30,5,-18.6604,147.7027,OCCH_BA2S,Offshore Central GBR,Chicken,Back 2,Shallow,1,Zoe Meziere,1,4,2022,Cluster5
+BLCH163A,Offshore Central GBR,11,Spis_28,C2,Chicken,15:30,5,-18.6604,147.7027,OCCH_BA2S,Offshore Central GBR,Chicken,Back 2,Shallow,1,Zoe Meziere,1,4,2022,Cluster5
+BLCH165A,Offshore Central GBR,5,Spis_8,C2,Davies,14:30,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back 1,Shallow,2,Zoe Meziere,28,3,2022,Cluster5
+BLCH16A,Offshore Central GBR,19,Spis_10,D1,Chicken,15:30,5,-18.6604,147.7027,OCCH_BA2S,Offshore Central GBR,Chicken,Back 2,Shallow,4,Zoe Meziere,1,4,2022,Cluster1
+BLCH174A,Offshore Central GBR,8,Spis_24,D1,Little Broadhurst,8:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank 1,Shallow,1,Zoe Meziere,2,4,2022,Cluster1
+BLCH182A,Offshore Central GBR,22,Spis_26,C2.5,Little Broadhurst,8:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank 1,Shallow,1,Zoe Meziere,2,4,2022,Cluster1
+BLCH184B,Offshore Central GBR,36,Spis_30,D1.5,Little Broadhurst,11:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back 1,Shallow,1,Zoe Meziere,2,4,2022,Cluster1
+BLCH190A,Offshore Central GBR,5,Spis_30,D1,Little Broadhurst,8:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank 1,Shallow,3,Zoe Meziere,2,4,2022,Cluster1
+BLCH193B,Offshore Central GBR,37,Spis_10,D1.5,Little Broadhurst,11:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back 1,Shallow,1,Zoe Meziere,2,4,2022,Cluster1
+BLCH194B,Offshore Central GBR,19,Spis_16,D1.5,Little Broadhurst,11:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back 1,Shallow,1,Zoe Meziere,2,4,2022,Cluster1
+BLCH195B,Offshore Central GBR,12,Spis_16,D1.5,Little Broadhurst,11:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back 1,Shallow,4,Zoe Meziere,2,4,2022,Cluster1
+BLCH196B,Offshore Central GBR,14,Spis_13,D3,Little Broadhurst,11:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back 1,Shallow,4,Zoe Meziere,2,4,2022,Cluster1
+BLCH197B,Offshore Central GBR,27,Spis_10,D1.5,Little Broadhurst,11:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back 1,Shallow,4,Zoe Meziere,2,4,2022,Cluster1
+BLCH20A,Offshore Central GBR,16,Spis_14,C1,Davies,14:30,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back 1,Shallow,3,Zoe Meziere,28,3,2022,Cluster1
+BLCH22A,Offshore Central GBR,16,Spis_15,C2,Davies,16:30,5,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front 1,Shallow,4,Zoe Meziere,28,3,2022,Cluster1
+BLCH30A,Offshore Central GBR,11,Spis_9,C2,Davies,16:30,5,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front 1,Shallow,3,Zoe Meziere,28,3,2022,Cluster5
+BLCH31A,Offshore Central GBR,4,Spis_17,C2,Davies,16:30,5,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front 1,Shallow,3,Zoe Meziere,28,3,2022,Cluster1
+BLCH32A,Offshore Central GBR,7,Spis_15,C2,Davies,16:30,5,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front 1,Shallow,3,Zoe Meziere,28,3,2022,Cluster1
+BLCH33A,Offshore Central GBR,18,Spis_16,D2,Davies,16:30,5,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front 1,Shallow,3,Zoe Meziere,28,3,2022,Cluster5
+BLCH35A,Offshore Central GBR,5,Spis_9,C2,Davies,10:00,13,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front 1,Deep,4,Zoe Meziere,29,3,2022,Cluster1
+BLCH36A,Offshore Central GBR,9,Spis_16,C2,Davies,10:00,13,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front 1,Deep,4,Zoe Meziere,29,3,2022,Cluster4
+BLCH38A,Offshore Central GBR,3,Spis_15,C1,Davies,10:00,13,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front 1,Deep,4,Zoe Meziere,29,3,2022,Cluster1
+BLCH41A,Offshore Central GBR,18,Spis_18,D1,Davies,10:00,13,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front 1,Deep,4,Zoe Meziere,29,3,2022,Cluster1
+BLCH42A,Offshore Central GBR,5,Spis_14,C4,Davies,14:00,13,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,1,Zoe Meziere,29,3,2022,Cluster1
+BLCH46A,Offshore Central GBR,16,Spis_38,C2,Davies,14:00,13,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,1,Zoe Meziere,29,3,2022,Cluster1
+BLCH49A,Offshore Central GBR,14,Spis_0,C4,Davies,14:00,13,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,1,Zoe Meziere,29,3,2022,Cluster1
+BLCH4A,Offshore Central GBR,10,Spis_21,C2,Davies,10:30,13,-18.82579,147.62735,OCDA_BA1D,Offshore Central GBR,Davies,Back 1,Deep,2,Zoe Meziere,28,3,2022,Cluster1
+BLCH55A,Offshore Central GBR,16,Spis_20,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,29,3,2022,Cluster1
+BLCH56A,Offshore Central GBR,5,Spis_19,C3,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,29,3,2022,Cluster1
+BLCH63A,Offshore Central GBR,10,Spis_51,C2,Davies,9:30,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH78A,Offshore Central GBR,5,Spis_14,C3.5,Davies,9:30,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front 2,Shallow,3,Zoe Meziere,30,3,2022,Cluster1
+BLCH85A,Offshore Central GBR,22,Spis_12,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH86A,Offshore Central GBR,14,Spis_10,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH87A,Offshore Central GBR,32,Spis_11,D3,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH91A,Offshore Central GBR,33,Spis_24,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH93A,Offshore Central GBR,21,Spis_27,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH99A,Offshore Central GBR,20,Spis_27,C2,Davies,16:00,5,-18.8145,147.6372,OCDA_BA2S,Offshore Central GBR,Davies,Back 2,Shallow,1,Zoe Meziere,30,3,2022,Cluster1
+BLCH9A,Offshore Central GBR,3,Spis_34,C2,Davies,14:30,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back 1,Shallow,4,Zoe Meziere,28,3,2022,Cluster1
+Spis_AUK_834,Torres Strait,18,,,Aukane,15:00,5,-9.88359,143.4071,TSAU_FR2S,Torres Strait,Aukane,Front2,Shallow,4,Cynthia Riginos,10,3,2022,Cluster2
+Spis_AUK_840,Torres Strait,5,,,Aukane,11:00,7,-9.87996,143.41004,TSAU_FR1S,Torres Strait,Aukane,Front1,Shallow,1,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_842,Torres Strait,16,,,Aukane,11:00,7,-9.87996,143.41004,TSAU_FR1S,Torres Strait,Aukane,Front1,Shallow,1,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_846,Torres Strait,19,,,Aukane,11:00,7,-9.87996,143.41004,TSAU_FR1S,Torres Strait,Aukane,Front1,Shallow,2,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_847,Torres Strait,15,,,Aukane,11:00,7,-9.87996,143.41004,TSAU_FR1S,Torres Strait,Aukane,Front1,Shallow,2,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_850,Torres Strait,2,,,Aukane,11:00,7,-9.87996,143.41004,TSAU_FR1S,Torres Strait,Aukane,Front1,Shallow,4,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_851,Torres Strait,13,,,Aukane,11:00,7,-9.87996,143.41004,TSAU_FR1S,Torres Strait,Aukane,Front1,Shallow,2,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_858,Torres Strait,,Spis_17_P1,,Aukane,16:00,5,-9.88203,7169807,TSAU_FL1S,Torres Strait,Aukane,Flank1,Shallow,1,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_862,Torres Strait,,Spis_34_P2,,Aukane,16:00,5,-9.88203,7169807,TSAU_FL1S,Torres Strait,Aukane,Flank1,Shallow,2,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_865,Torres Strait,,Spis_35_P4,,Aukane,16:00,5,-9.88203,7169807,TSAU_FL1S,Torres Strait,Aukane,Flank1,Shallow,4,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_867,Torres Strait,,Spis_6_P3,,Aukane,16:00,5,-9.88203,7169807,TSAU_FL1S,Torres Strait,Aukane,Flank1,Shallow,3,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_868,Torres Strait,,Spis_2_P3,,Aukane,16:00,5,-9.88203,7169807,TSAU_FL1S,Torres Strait,Aukane,Flank1,Shallow,3,Cynthia Riginos,11,3,2022,Cluster2
+Spis_AUK_871,Torres Strait,,Spis_66_P1,,Aukane,10:00,7,-9.8757,143.388545,TSAU_BA2S,Torres Strait,Aukane,Back2,Shallow,1,Cynthia Riginos,12,3,2022,Cluster2
+Spis_AUK_876,Torres Strait,,Spis_3_P4,,Aukane,10:00,7,-9.8757,143.388545,TSAU_BA2S,Torres Strait,Aukane,Back2,Shallow,4,Cynthia Riginos,12,3,2022,Cluster2
+Spis_AUK_879,Torres Strait,,,,Aukane,10:00,7,-9.8757,143.388545,TSAU_BA2S,Torres Strait,Aukane,Back2,Shallow,4,Cynthia Riginos,12,3,2022,Cluster2
+Spis_AUK_881,Torres Strait,,Spis_12_P3,,Aukane,10:00,7,-9.8757,143.388545,TSAU_BA2S,Torres Strait,Aukane,Back2,Shallow,3,Cynthia Riginos,12,3,2022,Cluster2
+Spis_AUK_885,Torres Strait,,Spis_63_P2,,Aukane,10:00,7,-9.8757,143.388545,TSAU_BA2S,Torres Strait,Aukane,Back2,Shallow,2,Cynthia Riginos,12,3,2022,Cluster2
+Spis_AUK_900,Torres Strait,,Spis_61_P1,,Aukane,15:00,5,-9.86762,143.3894,TSAU_BA1S,Torres Strait,Aukane,Back1,Shallow,1,Cynthia Riginos,12,3,2022,Cluster2
+Spis_CBHE_1279,Offshore South GBR,28,Spis_19,,Heron,10:00,12,-23.4708,151.9511,CBHE_FR2D,Offshore South GBR,Heron,Front2,Deep,1,Iva Popovic,5,5,2022,Cluster1
+Spis_CBHE_1281,Offshore South GBR,34,,,Heron,10:00,12,-23.4708,151.9511,CBHE_FR2D,Offshore South GBR,Heron,Front2,Deep,1,Iva Popovic,5,5,2022,Cluster1
+Spis_CBHE_1282,Offshore South GBR,12,Spis_54,,Heron,10:00,12,-23.4708,151.9511,CBHE_FR2D,Offshore South GBR,Heron,Front2,Deep,2,Iva Popovic,5,5,2022,Cluster1
+Spis_CBHE_1284,Offshore South GBR,32,Spis_4,,Heron,10:00,12,-23.4708,151.9511,CBHE_FR2D,Offshore South GBR,Heron,Front2,Deep,2,Iva Popovic,5,5,2022,Cluster1
+Spis_CBHE_1287,Offshore South GBR,11,Spis_57,,Heron,10:00,12,-23.4708,151.9511,CBHE_FR2D,Offshore South GBR,Heron,Front2,Deep,3,Iva Popovic,5,5,2022,Cluster1
+Spis_CBHE_1289,Offshore South GBR,12,,,Heron,14:30,5,-23.4704,151.9507,CBHE_FR2S,Offshore South GBR,Heron,Front2,Shallow,1,Iva Popovic,5,5,2022,Cluster1
+Spis_CBHE_1293,Offshore South GBR,35,Spis_53,,Heron,14:30,5,-23.4704,151.9507,CBHE_FR2S,Offshore South GBR,Heron,Front2,Shallow,2,Iva Popovic,5,5,2022,Cluster5
+Spis_CBHE_1295,Offshore South GBR,21,Spis_43,,Heron,14:30,5,-23.4704,151.9507,CBHE_FR2S,Offshore South GBR,Heron,Front2,Shallow,2,Iva Popovic,5,5,2022,Cluster5
+Spis_CBHE_1297,Offshore South GBR,9,Spis_34,,Heron,14:30,5,-23.4704,151.9507,CBHE_FR2S,Offshore South GBR,Heron,Front2,Shallow,3,Iva Popovic,5,5,2022,Cluster5
+Spis_CBHE_1300,Offshore South GBR,34,Spis_33,,Heron,14:30,5,-23.4704,151.9507,CBHE_FR2S,Offshore South GBR,Heron,Front2,Shallow,4,Iva Popovic,5,5,2022,Cluster5
+Spis_CBHE_1306,Offshore South GBR,27,Spis_53,,Heron,10:00,12,-23.4721,151.9779,CBHE_FR1D,Offshore South GBR,Heron,Front1,Deep,1,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1311,Offshore South GBR,23,Spis_57,,Heron,10:00,12,-23.4721,151.9779,CBHE_FR1D,Offshore South GBR,Heron,Front1,Deep,2,Iva Popovic,6,5,2022,Cluster4
+Spis_CBHE_1312,Offshore South GBR,16,Spis_52,,Heron,10:00,12,-23.4721,151.9779,CBHE_FR1D,Offshore South GBR,Heron,Front1,Deep,3,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1318,Offshore South GBR,21,Spis_57,,Heron,14:30,5,-23.472,151.9777,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,1,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1320,Offshore South GBR,16,Spis_52,,Heron,14:30,5,-23.472,151.9777,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,2,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1324,Offshore South GBR,6,Spis_54,,Heron,14:30,5,-23.472,151.9777,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,2,Iva Popovic,6,5,2022,Cluster1
+Spis_CBHE_1325,Offshore South GBR,1,Spis_53,,Heron,14:30,5,-23.472,151.9777,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1327,Offshore South GBR,37,Spis_52,,Heron,14:30,5,-23.472,151.9777,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1329,Offshore South GBR,40,Spis_53,,Heron,14:30,5,-23.472,151.9777,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,4,Iva Popovic,6,5,2022,Cluster5
+Spis_CBHE_1330,Offshore South GBR,10,Spis_1,,Heron,10:00,5,-23.4562,151.9257,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,1,Iva Popovic,7,5,2022,Cluster5
+Spis_CBHE_1331,Offshore South GBR,24,Spis_8,,Heron,10:00,5,-23.4562,151.9257,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,1,Iva Popovic,7,5,2022,Cluster5
+Spis_CBHE_1334,Offshore South GBR,37,Spis_54,,Heron,10:00,5,-23.4562,151.9257,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,1,Iva Popovic,7,5,2022,Cluster1
+Spis_CBHE_1335,Offshore South GBR,39,Spis_17,,Heron,10:00,5,-23.4562,151.9257,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,2,Iva Popovic,7,5,2022,Cluster1
+Spis_CBHE_1339,Offshore South GBR,6,,,Heron,10:00,5,-23.4562,151.9257,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,3,Iva Popovic,7,5,2022,Cluster5
+Spis_CBHE_1346,Offshore South GBR,17,Spis_54,,Heron,10:00,5,-23.4562,151.9257,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,4,Iva Popovic,7,5,2022,Cluster1
+Spis_CBHE_1382,Offshore South GBR,34,,,Heron,14:30,5,-23.4284,151.9524,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,2,Iva Popovic,8,5,2022,Cluster1
+Spis_CBHE_1388,Offshore South GBR,21,,,Heron,14:30,5,-23.4284,151.9524,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,3,Iva Popovic,8,5,2022,Cluster4
+Spis_CBHE_1391,Offshore South GBR,23,Spis_53,,Heron,14:30,5,-23.4284,151.9524,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,4,Iva Popovic,8,5,2022,Cluster5
+Spis_CBHE_1394,Offshore South GBR,31,Spis_54,,Heron,10:00,12,-23.4341,151.9203,CBHE_BA2D,Offshore South GBR,Heron,Back2,Deep,1,Iva Popovic,9,5,2022,Cluster4
+Spis_CBHE_1396,Offshore South GBR,39,Spis_53,,Heron,10:00,12,-23.4341,151.9203,CBHE_BA2D,Offshore South GBR,Heron,Back2,Deep,1,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_1398,Offshore South GBR,13,,,Heron,10:00,12,-23.4341,151.9203,CBHE_BA2D,Offshore South GBR,Heron,Back2,Deep,2,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_1400,Offshore South GBR,3,,,Heron,10:00,12,-23.4341,151.9203,CBHE_BA2D,Offshore South GBR,Heron,Back2,Deep,2,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_1408,Offshore South GBR,33,,,Heron,10:00,12,-23.4341,151.9203,CBHE_BA2D,Offshore South GBR,Heron,Back2,Deep,4,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_1412,Offshore South GBR,3,,,Heron,14:30,5,-23.434,151.9209,CBHE_BA2S,Offshore South GBR,Heron,Back2,Shallow,1,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_1415,Offshore South GBR,20,,,Heron,14:30,5,-23.434,151.9209,CBHE_BA2S,Offshore South GBR,Heron,Back2,Shallow,2,Iva Popovic,9,5,2022,Cluster5
+Spis_CBHE_1416,Offshore South GBR,11,,,Heron,14:30,5,-23.434,151.9209,CBHE_BA2S,Offshore South GBR,Heron,Back2,Shallow,2,Iva Popovic,9,5,2022,Cluster5
+Spis_CBHE_1418,Offshore South GBR,24,,,Heron,14:30,5,-23.434,151.9209,CBHE_BA2S,Offshore South GBR,Heron,Back2,Shallow,3,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_1423,Offshore South GBR,31,Spis_54,,Heron,14:30,5,-23.434,151.9209,CBHE_BA2S,Offshore South GBR,Heron,Back2,Shallow,4,Iva Popovic,9,5,2022,Cluster1
+Spis_CBHE_212,Offshore South GBR,2,26,,Heron,11:10,5,-23.4561755,151.925688,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,,Zoe Meziere,16,9,2021,Cluster5
+Spis_CBHE_213,Offshore South GBR,3,28,,Heron,11:10,5,-23.4561755,151.925688,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,,Zoe Meziere,16,9,2021,Cluster1
+Spis_CBHE_216,Offshore South GBR,6,29,,Heron,11:10,5,-23.4561755,151.925688,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,,Zoe Meziere,16,9,2021,Cluster5
+Spis_CBHE_217,Offshore South GBR,7,27,,Heron,11:10,5,-23.4561755,151.925688,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,,Zoe Meziere,16,9,2021,Cluster4
+Spis_CBHE_221,Offshore South GBR,40,15,,Heron,11:10,5,-23.4561755,151.925688,CBHE_FL1S,Offshore South GBR,Heron,Flank1,Shallow,,Zoe Meziere,16,9,2021,Cluster1
+Spis_CBHE_232,Offshore South GBR,76,41,,Heron,14:30,13,-23.472098,151.977937,CBHE_FR1D,Offshore South GBR,Heron,Front1,Deep,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_233,Offshore South GBR,78,48,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_234,Offshore South GBR,79,47,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_236,Offshore South GBR,82,45,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_238,Offshore South GBR,85,83,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_239,Offshore South GBR,86,91,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_240,Offshore South GBR,87,81,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_245,Offshore South GBR,112,94,,Heron,16:20,13,-23.472098,151.977937,CBHE_FR1D,Offshore South GBR,Heron,Front1,Deep,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_250,Offshore South GBR,120,18,,Heron,16:20,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,,Tom Richards,17,9,2021,Cluster5
+Spis_CBHE_253,Offshore South GBR,100,64,,Heron,11:54,13,-23.428043,151.952453,CBHE_BA1D,Offshore South GBR,Heron,Back1,Deep,4,Tom Richards,18,9,2021,Cluster4
+Spis_CBHE_256,Offshore South GBR,111,105,,Heron,11:54,12,-23.428043,151.952453,CBHE_BA1D,Offshore South GBR,Heron,Back1,Deep,1,Tom Richards,18,9,2021,Cluster1
+Spis_CBHE_259,Offshore South GBR,2,108,,Heron,12:00,5,-23.4284405,151.952418,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,1,Ilha Byrne,19,9,2021,Cluster1
+Spis_CBHE_265,Offshore South GBR,9,104,,Heron,12:00,5,-23.4284405,151.952418,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,3,Ilha Byrne,19,9,2021,Cluster4
+Spis_CBHE_270,Offshore South GBR,43,78,,Heron,12:00,5,-23.4284405,151.952418,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,4,Ilha Byrne,19,9,2021,Cluster4
+Spis_CBHE_272,Offshore South GBR,45,73,,Heron,12:00,5,-23.4284405,151.952418,CBHE_BA1S,Offshore South GBR,Heron,Back1,Shallow,4,Ilha Byrne,19,9,2021,Cluster4
+Spis_CBHE_273,Offshore South GBR,40,53,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Zoe Meziere,20,9,2021,Cluster5
+Spis_CBHE_275,Offshore South GBR,43,56,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Zoe Meziere,20,9,2021,Cluster5
+Spis_CBHE_277,Offshore South GBR,45,309,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,4,Zoe Meziere,20,9,2021,Cluster5
+Spis_CBHE_278,Offshore South GBR,46,58,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,4,Zoe Meziere,20,9,2021,Cluster5
+Spis_CBHE_282,Offshore South GBR,4,310,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Katherine Prata,20,9,2021,Cluster5
+Spis_CBHE_283,Offshore South GBR,5,102,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Katherine Prata,20,9,2021,Cluster5
+Spis_CBHE_285,Offshore South GBR,8,70,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,3,Katherine Prata,20,9,2021,Cluster5
+Spis_CBHE_286,Offshore South GBR,9,60,,Heron,9:23,5,-23.471972,151.9777105,CBHE_FR1S,Offshore South GBR,Heron,Front1,Shallow,4,Katherine Prata,20,9,2021,Cluster5
+Spis_CBHE_292,Offshore South GBR,6,,,Heron,14:30,1,-23.446857,151.91471,CBHE_LA2S,Offshore South GBR,Heron,Lagoon2,Shallow,,Zoe Meziere,21,9,2021,Cluster4
+Spis_CBLM_1207,Offshore South GBR,27,Spis_49,,Lady Musgrave ,10:50,5,-23.894298,152.404406,CBLM_BA2S,Offshore South GBR,Lady Musgrave ,Back2,Shallow,3,Iva Popovic,3,5,2022,Cluster5
+Spis_CBLM_1234,Offshore South GBR,9,Spis_25,,Lady Musgrave ,14:45,5,-23.896238,152.413635,CBLM_LA1S,Offshore South GBR,Lady Musgrave ,Lagoon1,Shallow,3,Iva Popovic,3,5,2022,Cluster5
+Spis_CBLM_1239,Offshore South GBR,29,Spis_26,,Lady Musgrave ,14:45,5,,,CBLM_LA1S,Offshore South GBR,Lady Musgrave ,Lagoon1,Shallow,4,Iva Popovic,3,5,2022,Cluster1
+Spis_CBLM_1244,Offshore South GBR,18,Spis_56,,Lady Musgrave ,10:25,5,-23.884903,152.413621,CBLM_FL1S,Offshore South GBR,Lady Musgrave ,Flank1,Shallow,1,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1245,Offshore South GBR,32,Spis_55,,Lady Musgrave ,10:25,5,-23.884903,152.413621,CBLM_FL1S,Offshore South GBR,Lady Musgrave ,Flank1,Shallow,1,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1259,Offshore South GBR,30,Spis_51,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,1,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1260,Offshore South GBR,13,Spis_52,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,1,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1261,Offshore South GBR,8,Spis_56,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,1,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1262,Offshore South GBR,12,Spis_55,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,1,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1264,Offshore South GBR,9,Spis_53,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,1,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1265,Offshore South GBR,10,Spis_9,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,2,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1266,Offshore South GBR,36,Spis_54,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,2,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1268,Offshore South GBR,35,Spis_52,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,2,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1271,Offshore South GBR,38,Spis_38,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,3,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1273,Offshore South GBR,24,Spis_48,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,3,Iva Popovic,4,5,2022,Cluster5
+Spis_CBLM_1274,Offshore South GBR,2,Spis_28,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,4,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1275,Offshore South GBR,20,Spis_25,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,4,Iva Popovic,4,5,2022,Cluster1
+Spis_CBLM_1277,Offshore South GBR,11,,,Lady Musgrave ,14:00,5,-23.917571,152.391971,CBLM_FL2S,Offshore South GBR,Lady Musgrave ,Flank2,Shallow,4,Iva Popovic,4,5,2022,Cluster5
+Spis_DUN_1139,Torres Strait,,,,Dungeness,15:20,5,-9.9312,143.0054,TSDU_FR1S,Torres Strait,Dungeness,Front1,Shallow,between P3 and P4,Cynthia Riginos,20,3,2022,Cluster2
+Spis_DUN_1157,Torres Strait,5,,,Dungeness,16:00,5,-10.0371,142.9265,TSDU_FR2S,Torres Strait,Dungeness,Front2,Shallow,between P2 and P3,Cynthia Riginos,21,3,2022,Cluster2
+Spis_DUN_1172,Torres Strait,11,,,Dungeness,10:00,5,-9.98532,142.9085,TSDU_BA3S,Torres Strait,Dungeness,Back3,Shallow,1,Cynthia Riginos,22,3,2022,Cluster4
+Spis_DUN_1174,Torres Strait,5,Spis_0,,Dungeness,10:00,5,-9.98532,142.9085,TSDU_BA3S,Torres Strait,Dungeness,Back3,Shallow,3,Cynthia Riginos,22,3,2022,Cluster2
+Spis_MAS_1004,Torres Strait,,Spis_62,,Masig,14:00,5,-9.73404,143.4352,TSMA_LA1S,Torres Strait,Masig,Lagoon1,Shallow,,Cynthia Riginos,16,3,2022,Cluster2
+Spis_MAS_1010,Torres Strait,,Spis_1_P4,,Masig,11:20,5,-9.7599,143.398,TSMA_FL1S,Torres Strait,Masig,Flank1,Shallow,4,Cynthia Riginos,17,3,2022,Cluster2
+Spis_MAS_1015,Torres Strait,,Spis_52,,Masig,11:20,5,-9.7599,143.398,TSMA_FL1S,Torres Strait,Masig,Flank1,Shallow,4,Cynthia Riginos,17,3,2022,Cluster2
+Spis_MAS_1027,Torres Strait,,Spis_10,,Masig,11:00,5,-9.7442395,143.415763,TSMA_BA2S,Torres Strait,Masig,Back2,Shallow,2,Cynthia Riginos,18,3,2022,Cluster2
+Spis_MAS_1032,Torres Strait,,Spis_60,,Masig,11:00,5,-9.7442395,143.415763,TSMA_BA2S,Torres Strait,Masig,Back2,Shallow,4,Cynthia Riginos,18,3,2022,Cluster2
+Spis_MAS_1038,Torres Strait,,Spis_77,,Masig,11:00,5,-9.7442395,143.415763,TSMA_BA2S,Torres Strait,Masig,Back2,Shallow,1,Cynthia Riginos,18,3,2022,Cluster2
+Spis_MAS_1039,Torres Strait,,Spis_79,,Masig,11:00,5,-9.7442395,143.415763,TSMA_BA2S,Torres Strait,Masig,Back2,Shallow,1,Cynthia Riginos,18,3,2022,Cluster2
+Spis_MAS_916,Torres Strait,,Spis_64_P2,,Masig,14:00,4,-9.759895,143.39796,TSMA_FR1S,Torres Strait,Masig,Front1,Shallow,2,Cynthia Riginos,13,3,2022,Cluster2
+Spis_MAS_917,Torres Strait,,Spis_0_P4,,Masig,14:00,4,-9.759895,143.39796,TSMA_FR1S,Torres Strait,Masig,Front1,Shallow,4,Cynthia Riginos,13,3,2022,Cluster2
+Spis_MAS_920,Torres Strait,,,,Masig,14:00,4,-9.759895,143.39796,TSMA_FR1S,Torres Strait,Masig,Front1,Shallow,between 3 & 4,Cynthia Riginos,13,3,2022,Cluster2
+Spis_MAS_922,Torres Strait,,Spis_6_P3,,Masig,14:00,4,-9.759895,143.39796,TSMA_FR1S,Torres Strait,Masig,Front1,Shallow,3,Cynthia Riginos,13,3,2022,Cluster2
+Spis_MAS_928,Torres Strait,,Spis_17_P2,,Masig,8:00,14,-9.74637,143.4601,TSMA_FR2D,Torres Strait,Masig,Front2,Deep,,Cynthia Riginos,14,3,2022,Cluster2
+Spis_MAS_934,Torres Strait,,Spis_53_P2,,Masig,13:30,4,-9.74838,143.4585,TSMA_FR2S,Torres Strait,Masig,Front2,Shallow,2,Cynthia Riginos,14,3,2022,Cluster2
+Spis_MAS_937,Torres Strait,,Spis_16_P2,,Masig,13:30,4,-9.74838,143.4585,TSMA_FR2S,Torres Strait,Masig,Front2,Shallow,2,Cynthia Riginos,14,3,2022,Cluster2
+Spis_MAS_941,Torres Strait,,Spis_48_P4,,Masig,13:30,4,-9.74838,143.4585,TSMA_FR2S,Torres Strait,Masig,Front2,Shallow,4,Cynthia Riginos,14,3,2022,Cluster2
+Spis_MAS_942,Torres Strait,,,,Masig,13:30,4,-9.74838,143.4585,TSMA_FR2S,Torres Strait,Masig,Front2,Shallow,4,Cynthia Riginos,14,3,2022,Cluster2
+Spis_MAS_948,Torres Strait,,Spis_4_P1,,Masig,13:30,4,-9.74838,143.4585,TSMA_FR2S,Torres Strait,Masig,Front2,Shallow,1,Cynthia Riginos,14,3,2022,Cluster2
+Spis_MAS_960,Torres Strait,10,Spis-54_P3,,Masig,14:20,4,-9.7489,143.3998,TSMA_BA1S,Torres Strait,Masig,Back1,Shallow,3,Cynthia Riginos,15,3,2022,Cluster2
+Spis_MAS_961,Torres Strait,16,Spis-55_P3,,Masig,14:20,4,-9.7489,143.3998,TSMA_BA1S,Torres Strait,Masig,Back1,Shallow,3,Cynthia Riginos,15,3,2022,Cluster2
+Spis_MAS_971,Torres Strait,,,,Masig,14:20,4,-9.7489,143.3998,TSMA_BA1S,Torres Strait,Masig,Back1,Shallow,1,Cynthia Riginos,15,3,2022,Cluster2
+Spis_MAS_973,Torres Strait,,,,Masig,11:00,14,-9.74409,143.4157,TSMA_BA2D,Torres Strait,Masig,Back2,Deep,4,Cynthia Riginos,16,3,2022,Cluster2
+Spis_MAS_995,Torres Strait,,,,Masig,14:00,5,-9.73404,143.4352,TSMA_LA1S,Torres Strait,Masig,Lagoon1,Shallow,,Cynthia Riginos,16,3,2022,Cluster2
+Spis_MAS_996,Torres Strait,,,,Masig,14:00,5,-9.73404,143.4352,TSMA_LA1S,Torres Strait,Masig,Lagoon1,Shallow,2,Cynthia Riginos,16,3,2022,Cluster2
+Spis_MAS_999,Torres Strait,,Spis_2_P4,,Masig,14:00,5,-9.73404,143.4352,TSMA_LA1S,Torres Strait,Masig,Lagoon1,Shallow,3,Cynthia Riginos,16,3,2022,Cluster2
+Spis_OCCH_628,Offshore Central GBR,9,,,Chicken,9:00,5,-18.660365,147.702675,OCCH_BA2S,Offshore Central GBR,Chicken,Back2,Shallow,,Zoe Meziere,17,1,2022,Cluster1
+Spis_OCCH_629,Offshore Central GBR,4,,,Chicken,9:00,5,-18.660365,147.702675,OCCH_BA2S,Offshore Central GBR,Chicken,Back2,Shallow,,Zoe Meziere,17,1,2022,Cluster1
+Spis_OCCH_631,Offshore Central GBR,14,,,Chicken,9:00,5,-18.660365,147.702675,OCCH_BA2S,Offshore Central GBR,Chicken,Back2,Shallow,,Zoe Meziere,17,1,2022,Cluster5
+Spis_OCCH_634,Offshore Central GBR,8,,,Chicken,9:00,5,-18.660365,147.702675,OCCH_BA2S,Offshore Central GBR,Chicken,Back2,Shallow,,Zoe Meziere,17,1,2022,Cluster1
+Spis_OCCH_643,Offshore Central GBR,10,,,Chicken,9:00,6,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank1,Shallow,,Zoe Meziere,18,1,2022,Cluster3
+Spis_OCCH_646,Offshore Central GBR,11,,,Chicken,9:00,6,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank1,Shallow,,Zoe Meziere,18,1,2022,Cluster3
+Spis_OCCH_647,Offshore Central GBR,15,,,Chicken,9:00,6,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank1,Shallow,,Zoe Meziere,18,1,2022,Cluster3
+Spis_OCCH_651,Offshore Central GBR,12,,,Chicken,9:00,6,-18.652217,147.7184615,OCCH_FL1S,Offshore Central GBR,Chicken,Flank1,Shallow,,Zoe Meziere,18,1,2022,Cluster3
+Spis_OCCH_655,Offshore Central GBR,4,,,Chicken,9:00,6,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back1,Shallow,,Zoe Meziere,18,1,2022,Cluster1
+Spis_OCCH_659,Offshore Central GBR,15,,,Chicken,9:00,6,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back1,Shallow,,Zoe Meziere,18,1,2022,Cluster1
+Spis_OCCH_668,Offshore Central GBR,10,,,Chicken,9:00,6,-18.6532055,147.708533,OCCH_BA1S,Offshore Central GBR,Chicken,Back1,Shallow,,Zoe Meziere,18,1,2022,Cluster1
+Spis_OCDA_570,Offshore Central GBR,12,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_573,Offshore Central GBR,3,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_576,Offshore Central GBR,1,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_577,Offshore Central GBR,13,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_579,Offshore Central GBR,15,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_581,Offshore Central GBR,14,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_582,Offshore Central GBR,7,,,Davies,15:00,13,-18.83191,147.65257,OCDA_FR2D,Offshore Central GBR,Davies,Front2,Deep,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_587,Offshore Central GBR,9,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster3
+Spis_OCDA_588,Offshore Central GBR,1,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_589,Offshore Central GBR,2,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_593,Offshore Central GBR,11,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_594,Offshore Central GBR,4,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_595,Offshore Central GBR,14,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster1
+Spis_OCDA_597,Offshore Central GBR,7,,,Davies,9:00,5,-18.83187,147.6525,OCDA_FR2S,Offshore Central GBR,Davies,Front2,Shallow,,Zoe Meziere,15,1,2022,Cluster3
+Spis_OCDA_600,Offshore Central GBR,11,,,Davies,15:00,14,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front1,Deep,,Zoe Meziere,16,1,2022,Cluster1
+Spis_OCDA_601,Offshore Central GBR,10,,,Davies,15:00,14,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front1,Deep,,Zoe Meziere,16,1,2022,Cluster1
+Spis_OCDA_602,Offshore Central GBR,15,,,Davies,15:00,14,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front1,Deep,,Zoe Meziere,16,1,2022,Cluster1
+Spis_OCDA_603,Offshore Central GBR,12,,,Davies,15:00,14,-18.81966,147.66394,OCDA_FR1D,Offshore Central GBR,Davies,Front1,Deep,,Zoe Meziere,16,1,2022,Cluster1
+Spis_OCDA_613,Offshore Central GBR,9,,,Davies,9:00,6,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front1,Shallow,,Zoe Meziere,16,1,2022,Cluster1
+Spis_OCDA_617,Offshore Central GBR,8,,,Davies,9:00,6,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front1,Shallow,,Zoe Meziere,16,1,2022,Cluster3
+Spis_OCDA_619,Offshore Central GBR,12,,,Davies,9:00,6,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front1,Shallow,,Zoe Meziere,16,1,2022,Cluster3
+Spis_OCDA_622,Offshore Central GBR,10,,,Davies,9:00,6,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front1,Shallow,,Zoe Meziere,16,1,2022,Cluster5
+Spis_OCDA_624,Offshore Central GBR,3,,,Davies,9:00,6,-18.8192,147.66391,OCDA_FR1S,Offshore Central GBR,Davies,Front1,Shallow,,Zoe Meziere,16,1,2022,Cluster5
+Spis_OCDA_670,Offshore Central GBR,5,,,Davies,16:00,15,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,,Zoe Meziere,19,1,2022,Cluster1
+Spis_OCDA_672,Offshore Central GBR,1,,,Davies,16:00,15,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,,Zoe Meziere,19,1,2022,Cluster1
+Spis_OCDA_675,Offshore Central GBR,6,,,Davies,16:00,15,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,,Zoe Meziere,19,1,2022,Cluster1
+Spis_OCDA_677,Offshore Central GBR,11,,,Davies,16:00,15,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,,Zoe Meziere,19,1,2022,Cluster1
+Spis_OCDA_679,Offshore Central GBR,9,,,Davies,16:00,15,-18.80592,147.6688,OCDA_FL1D,Offshore Central GBR,Davies,Flank1,Deep,,Zoe Meziere,19,1,2022,Cluster1
+Spis_OCDA_683,Offshore Central GBR,1,,,Davies,9:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank1,Shallow,,Zoe Meziere,20,1,2022,Cluster1
+Spis_OCDA_685,Offshore Central GBR,4,,,Davies,9:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank1,Shallow,,Zoe Meziere,20,1,2022,Cluster4
+Spis_OCDA_691,Offshore Central GBR,12,,,Davies,9:00,5,-18.80575,147.6686,OCDA_FL1S,Offshore Central GBR,Davies,Flank1,Shallow,,Zoe Meziere,20,1,2022,Cluster1
+Spis_OCDA_740,Offshore Central GBR,4,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_742,Offshore Central GBR,21,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_743,Offshore Central GBR,20,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_746,Offshore Central GBR,2,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_748,Offshore Central GBR,10,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_749,Offshore Central GBR,22,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_752,Offshore Central GBR,18,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_755,Offshore Central GBR,13,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_757,Offshore Central GBR,17,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_758,Offshore Central GBR,6,,,Davies,9:00,5,-18.833,147.63338,OCDA_LA1S,Offshore Central GBR,Davies,Lagoon1,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_760,Offshore Central GBR,20,,,Davies,14:30,5,-18.83125,147.63316,OCDA_LA2S,Offshore Central GBR,Davies,Lagoon2,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_762,Offshore Central GBR,12,,,Davies,14:30,5,-18.83125,147.63316,OCDA_LA2S,Offshore Central GBR,Davies,Lagoon2,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_763,Offshore Central GBR,2,,,Davies,14:30,5,-18.83125,147.63316,OCDA_LA2S,Offshore Central GBR,Davies,Lagoon2,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_768,Offshore Central GBR,24,,,Davies,14:30,5,-18.83125,147.63316,OCDA_LA2S,Offshore Central GBR,Davies,Lagoon2,Shallow,,Zoe Meziere,22,1,2022,Cluster1
+Spis_OCDA_770,Offshore Central GBR,4,,,Davies,10:30,14,-18.82579,147.62735,OCDA_BA1D,Offshore Central GBR,Davies,Back1,Deep,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCDA_776,Offshore Central GBR,5,,,Davies,10:30,14,-18.82579,147.62735,OCDA_BA1D,Offshore Central GBR,Davies,Back1,Deep,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCDA_778,Offshore Central GBR,24,,,Davies,10:30,14,-18.82579,147.62735,OCDA_BA1D,Offshore Central GBR,Davies,Back1,Deep,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCDA_779,Offshore Central GBR,21,,,Davies,15:00,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back1,Shallow,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCDA_781,Offshore Central GBR,3,,,Davies,15:00,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back1,Shallow,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCDA_784,Offshore Central GBR,7,,,Davies,15:00,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back1,Shallow,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCDA_788,Offshore Central GBR,22,,,Davies,15:00,5,-18.8259,147.62727,OCDA_BA1S,Offshore Central GBR,Davies,Back1,Shallow,,Zoe Meziere,23,1,2022,Cluster1
+Spis_OCLB_697,Offshore Central GBR,8,,,Little Broadhurst,16:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back1,Shallow,,Zoe Meziere,20,1,2022,Cluster1
+Spis_OCLB_701,Offshore Central GBR,10,,,Little Broadhurst,16:00,5,-18.9493475,147.6929265,OCLB_BA1S,Offshore Central GBR,Little Broadhurst,Back1,Shallow,,Zoe Meziere,20,1,2022,Cluster1
+Spis_OCLB_711,Offshore Central GBR,1,,,Little Broadhurst,10:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_717,Offshore Central GBR,11,,,Little Broadhurst,10:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_720,Offshore Central GBR,9,,,Little Broadhurst,10:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_724,Offshore Central GBR,14,,,Little Broadhurst,10:00,5,-18.944062,147.699285,OCLB_FL1S,Offshore Central GBR,Little Broadhurst,Flank1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_725,Offshore Central GBR,5,,,Little Broadhurst,15:00,5,-18.949382,147.701909,OCLB_LA1S,Offshore Central GBR,Little Broadhurst,Lagoon1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_728,Offshore Central GBR,4,,,Little Broadhurst,15:00,5,-18.949382,147.701909,OCLB_LA1S,Offshore Central GBR,Little Broadhurst,Lagoon1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_731,Offshore Central GBR,12,,,Little Broadhurst,15:00,5,-18.949382,147.701909,OCLB_LA1S,Offshore Central GBR,Little Broadhurst,Lagoon1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_734,Offshore Central GBR,10,,,Little Broadhurst,15:00,5,-18.949382,147.701909,OCLB_LA1S,Offshore Central GBR,Little Broadhurst,Lagoon1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_738,Offshore Central GBR,11,,,Little Broadhurst,19:00,5,-18.949382,147.701909,OCLB_LA1S,Offshore Central GBR,Little Broadhurst,Lagoon1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_OCLB_739,Offshore Central GBR,6,,,Little Broadhurst,20:00,5,-18.949382,147.701909,OCLB_LA1S,Offshore Central GBR,Little Broadhurst,Lagoon1,Shallow,,Zoe Meziere,21,1,2022,Cluster1
+Spis_ONLI_441,Offshore North GBR,6,,,Lizard,9:30,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_442,Offshore North GBR,9,,,Lizard,9:30,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_443,Offshore North GBR,4,,,Lizard,9:30,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_445,Offshore North GBR,13,,,Lizard,9:30,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_448,Offshore North GBR,11,,,Lizard,9:30,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_449,Offshore North GBR,7,,,Lizard,14:00,4,-14.6980975,145.445447,ONLI_FL1S,Offshore North GBR,Lizard,Flank1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_455,Offshore North GBR,14,,,Lizard,14:00,4,-14.6980975,145.445447,ONLI_FL1S,Offshore North GBR,Lizard,Flank1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_456,Offshore North GBR,15,,,Lizard,14:00,4,-14.6980975,145.445447,ONLI_FL1S,Offshore North GBR,Lizard,Flank1,Shallow,,Zoe Meziere,30,10,2021,Cluster1
+Spis_ONLI_465,Offshore North GBR,9,,,Lizard,9:30,5,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,,Zoe Meziere,31,10,2021,Cluster1
+Spis_ONLI_467,Offshore North GBR,10,,,Lizard,9:30,5,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,,Zoe Meziere,31,10,2021,Cluster1
+Spis_ONLI_468,Offshore North GBR,14,,,Lizard,9:30,5,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,,Zoe Meziere,31,10,2021,Cluster1
+Spis_ONLI_484,Offshore North GBR,9,,,Lizard,13:00,5,-14.667794,145.441894,ONLI_BA2S,Offshore North GBR,Lizard,Back2,Shallow,,Zoe Meziere,31,10,2021,Cluster1
+Spis_ONLI_486,Offshore North GBR,12,,,Lizard,13:00,5,-14.667794,145.441894,ONLI_BA2S,Offshore North GBR,Lizard,Back2,Shallow,,Zoe Meziere,31,10,2021,Cluster1
+Spis_ONLI_488,Offshore North GBR,15,,,Lizard,13:00,5,-14.667794,145.441894,ONLI_BA2S,Offshore North GBR,Lizard,Back2,Shallow,,Zoe Meziere,31,10,2021,Cluster1
+Spis_ONLI_489,Offshore North GBR,2,,,Lizard,10:00,5,-14.6877065,145.465276,ONLI_LA1S,Offshore North GBR,Lizard,Lagoon1,Shallow,,Zoe Meziere,1,11,2021,Cluster1
+Spis_ONLI_490,Offshore North GBR,7,,,Lizard,10:00,5,-14.6877065,145.465276,ONLI_LA1S,Offshore North GBR,Lizard,Lagoon1,Shallow,,Zoe Meziere,1,11,2021,Cluster1
+Spis_ONLI_491,Offshore North GBR,11,,,Lizard,10:00,5,-14.6877065,145.465276,ONLI_LA1S,Offshore North GBR,Lizard,Lagoon1,Shallow,,Zoe Meziere,1,11,2021,Cluster1
+Spis_ONLI_493,Offshore North GBR,3,,,Lizard,10:00,5,-14.6877065,145.465276,ONLI_LA1S,Offshore North GBR,Lizard,Lagoon1,Shallow,,Zoe Meziere,1,11,2021,Cluster1
+Spis_ONLI_494,Offshore North GBR,9,,,Lizard,10:00,5,-14.6877065,145.465276,ONLI_LA1S,Offshore North GBR,Lizard,Lagoon1,Shallow,,Zoe Meziere,1,11,2021,Cluster1
+Spis_ONLI_792,Offshore North GBR,21,,,Lizard,16:00,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,2,Cynthia Riginos,6,3,2022,Cluster1
+Spis_ONLI_793,Offshore North GBR,25,Spis26_P3,,Lizard,16:00,5,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,3,Cynthia Riginos,6,3,2022,Cluster1
+Spis_ONLI_798,Offshore North GBR,23,Spis_37_P2,,Lizard,9:00,7,-15.755283,145.738859,ONLI_FR1S,Offshore North GBR,Lizard,Front1,Shallow,2,Cynthia Riginos,7,3,2022,Cluster1
+Spis_ONLI_804,Offshore North GBR,11,Spis_39_P1,,Lizard,15:00,4,-14.667794,145.441894,ONLI_BA2S,Offshore North GBR,Lizard,Back2,Shallow,1,Cynthia Riginos,7,3,2022,Cluster1
+Spis_ONLI_805,Offshore North GBR,10,,,Lizard,15:00,4,-14.667794,145.441894,ONLI_BA2S,Offshore North GBR,Lizard,Back2,Shallow,2,Cynthia Riginos,7,3,2022,Cluster1
+Spis_ONLI_807,Offshore North GBR,4,Spis_57_P4,,Lizard,15:00,4,-14.667794,145.441894,ONLI_BA2S,Offshore North GBR,Lizard,Back2,Shallow,4,Cynthia Riginos,7,3,2022,Cluster1
+Spis_ONLI_810,Offshore North GBR,12,Spis_65_P1,,Lizard,9:00,7,-14.650714,145.450096,ONLI_BA1S,Offshore North GBR,Lizard,Back1,Shallow,1,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONLI_814,Offshore North GBR,15,Spis_36_P3,,Lizard,9:00,7,-14.650714,145.450096,ONLI_BA1S,Offshore North GBR,Lizard,Back1,Shallow,3,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONLI_815,Offshore North GBR,20,Spis_2_P3,,Lizard,9:00,7,-14.650714,145.450096,ONLI_BA1S,Offshore North GBR,Lizard,Back1,Shallow,3,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONLI_817,Offshore North GBR,1,Spis_54_P1,,Lizard,15:00,7,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,1,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONLI_820,Offshore North GBR,8,Spis_12_P2,,Lizard,15:00,7,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,2,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONLI_822,Offshore North GBR,23,Spis_21_P4,,Lizard,15:00,7,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,4,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONLI_823,Offshore North GBR,24,Spis_56_P3,,Lizard,15:00,7,-14.649439,145.492935,ONLI_FR2S,Offshore North GBR,Lizard,Front2,Shallow,3,Cynthia Riginos,8,3,2022,Cluster1
+Spis_ONMO_314,Offshore North GBR,11,,,Moore,14:30,5,-16.8485425,146.237223,ONMO_FL1S,Offshore North GBR,Moore,Flank1,Shallow,,Zoe Meziere,24,10,2021,Cluster3
+Spis_ONMO_316,Offshore North GBR,3,,,Moore,14:30,5,-16.8485425,146.237223,ONMO_FL1S,Offshore North GBR,Moore,Flank1,Shallow,,Zoe Meziere,24,10,2021,Cluster3
+Spis_ONMO_317,Offshore North GBR,8,,,Moore,14:30,5,-16.8485425,146.237223,ONMO_FL1S,Offshore North GBR,Moore,Flank1,Shallow,,Zoe Meziere,24,10,2021,Cluster3
+Spis_ONMO_320,Offshore North GBR,4,,,Moore,14:30,5,-16.8485425,146.237223,ONMO_FL1S,Offshore North GBR,Moore,Flank1,Shallow,,Zoe Meziere,24,10,2021,Cluster3
+Spis_ONMO_321,Offshore North GBR,2,,,Moore,14:30,5,-16.8485425,146.237223,ONMO_FL1S,Offshore North GBR,Moore,Flank1,Shallow,,Zoe Meziere,24,10,2021,Cluster3
+Spis_ONMO_327,Offshore North GBR,5,,,Moore,9:00,12,-16.872083,146.2536695,ONMO_FR1D,Offshore North GBR,Moore,Front1,Deep,,Zoe Meziere,25,10,2021,Cluster1
+Spis_ONMO_328,Offshore North GBR,12,,,Moore,9:00,12,-16.872083,146.2536695,ONMO_FR1D,Offshore North GBR,Moore,Front1,Deep,,Zoe Meziere,25,10,2021,Cluster1
+Spis_ONMO_333,Offshore North GBR,11,,,Moore,9:00,12,-16.872083,146.2536695,ONMO_FR1D,Offshore North GBR,Moore,Front1,Deep,,Zoe Meziere,25,10,2021,Cluster1
+Spis_ONMO_334,Offshore North GBR,3,,,Moore,9:00,12,-16.872083,146.2536695,ONMO_FR1D,Offshore North GBR,Moore,Front1,Deep,,Zoe Meziere,25,10,2021,Cluster1
+Spis_ONMO_342,Offshore North GBR,1,,,Moore,14:00,5,-16.872041,146.2536145,ONMO_FR1S,Offshore North GBR,Moore,Front1,Shallow,,Zoe Meziere,25,10,2021,Cluster1
+Spis_ONMO_343,Offshore North GBR,13,,,Moore,14:00,5,-16.872041,146.2536145,ONMO_FR1S,Offshore North GBR,Moore,Front1,Shallow,,Zoe Meziere,25,10,2021,Cluster3
+Spis_ONMO_347,Offshore North GBR,2,,,Moore,9:00,13,-16.8830355,146.244797,ONMO_FR2D,Offshore North GBR,Moore,Front2,Deep,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_348,Offshore North GBR,1,,,Moore,9:00,13,-16.8830355,146.244797,ONMO_FR2D,Offshore North GBR,Moore,Front2,Deep,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_349,Offshore North GBR,7,,,Moore,9:00,13,-16.8830355,146.244797,ONMO_FR2D,Offshore North GBR,Moore,Front2,Deep,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_350,Offshore North GBR,11,,,Moore,9:00,13,-16.8830355,146.244797,ONMO_FR2D,Offshore North GBR,Moore,Front2,Deep,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_351,Offshore North GBR,6,,,Moore,9:00,13,-16.8830355,146.244797,ONMO_FR2D,Offshore North GBR,Moore,Front2,Deep,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_360,Offshore North GBR,12,,,Moore,14:30,5,-16.882674,146.244602,ONMO_FR2S,Offshore North GBR,Moore,Front2,Shallow,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_362,Offshore North GBR,8,,,Moore,14:30,5,-16.882674,146.244602,ONMO_FR2S,Offshore North GBR,Moore,Front2,Shallow,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_363,Offshore North GBR,2,,,Moore,14:30,5,-16.882674,146.244602,ONMO_FR2S,Offshore North GBR,Moore,Front2,Shallow,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_364,Offshore North GBR,15,,,Moore,14:30,5,-16.882674,146.244602,ONMO_FR2S,Offshore North GBR,Moore,Front2,Shallow,,Zoe Meziere,26,10,2021,Cluster1
+Spis_ONMO_373,Offshore North GBR,13,,,Moore,10:00,12,-16.8484505,146.2372885,ONMO_FL1D,Offshore North GBR,Moore,Flank1,Deep,,Zoe Meziere,27,10,2021,Cluster3
+Spis_ONMO_376,Offshore North GBR,12,,,Moore,10:00,12,-16.8484505,146.2372885,ONMO_FL1D,Offshore North GBR,Moore,Flank1,Deep,,Zoe Meziere,27,10,2021,Hyb
+Spis_ONMO_378,Offshore North GBR,4,,,Moore,10:00,12,-16.8484505,146.2372885,ONMO_FL1D,Offshore North GBR,Moore,Flank1,Deep,,Zoe Meziere,27,10,2021,Hyb
+Spis_ONMO_380,Offshore North GBR,8,,,Moore,10:00,12,-16.8484505,146.2372885,ONMO_FL1D,Offshore North GBR,Moore,Flank1,Deep,,Zoe Meziere,27,10,2021,Hyb
+Spis_ONMO_381,Offshore North GBR,6,,,Moore,14:00,5,-16.859841,146.2256785,ONMO_LA1S,Offshore North GBR,Moore,Lagoon1,Shallow,,Zoe Meziere,27,10,2021,Cluster1
+Spis_ONMO_382,Offshore North GBR,4,,,Moore,14:00,5,-16.859841,146.2256785,ONMO_LA1S,Offshore North GBR,Moore,Lagoon1,Shallow,,Zoe Meziere,27,10,2021,Cluster1
+Spis_ONMO_383,Offshore North GBR,11,,,Moore,14:00,5,-16.859841,146.2256785,ONMO_LA1S,Offshore North GBR,Moore,Lagoon1,Shallow,,Zoe Meziere,27,10,2021,Cluster1
+Spis_ONMO_385,Offshore North GBR,8,,,Moore,14:00,5,-16.859841,146.2256785,ONMO_LA1S,Offshore North GBR,Moore,Lagoon1,Shallow,,Zoe Meziere,27,10,2021,Cluster1
+Spis_ONMO_386,Offshore North GBR,15,,,Moore,14:00,5,-16.859841,146.2256785,ONMO_LA1S,Offshore North GBR,Moore,Lagoon1,Shallow,,Zoe Meziere,27,10,2021,Cluster1
+Spis_ONMO_393,Offshore North GBR,5,,,Moore,9:30,10,-16.8599245,146.2257455,ONMO_LA1D,Offshore North GBR,Moore,Lagoon1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_394,Offshore North GBR,7,,,Moore,9:30,10,-16.8599245,146.2257455,ONMO_LA1D,Offshore North GBR,Moore,Lagoon1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_395,Offshore North GBR,15,,,Moore,9:30,10,-16.8599245,146.2257455,ONMO_LA1D,Offshore North GBR,Moore,Lagoon1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_396,Offshore North GBR,6,,,Moore,9:30,10,-16.8599245,146.2257455,ONMO_LA1D,Offshore North GBR,Moore,Lagoon1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_403,Offshore North GBR,10,,,Moore,14:00,12,-16.8471725,146.2174315,ONMO_BA1D,Offshore North GBR,Moore,Back1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_404,Offshore North GBR,9,,,Moore,14:00,12,-16.8471725,146.2174315,ONMO_BA1D,Offshore North GBR,Moore,Back1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_408,Offshore North GBR,14,,,Moore,14:00,12,-16.8471725,146.2174315,ONMO_BA1D,Offshore North GBR,Moore,Back1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_410,Offshore North GBR,3,,,Moore,14:00,12,-16.8471725,146.2174315,ONMO_BA1D,Offshore North GBR,Moore,Back1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_412,Offshore North GBR,5,,,Moore,14:00,12,-16.8471725,146.2174315,ONMO_BA1D,Offshore North GBR,Moore,Back1,Deep,,Zoe Meziere,28,10,2021,Cluster1
+Spis_ONMO_414,Offshore North GBR,6,,,Moore,10:00,10,-16.881947,146.1837795,ONMO_BA2D,Offshore North GBR,Moore,Back2,Deep,,Zoe Meziere,29,10,2021,Cluster1
+Spis_ONMO_415,Offshore North GBR,5,,,Moore,10:00,10,-16.881947,146.1837795,ONMO_BA2D,Offshore North GBR,Moore,Back2,Deep,,Zoe Meziere,29,10,2021,Cluster1
+Spis_ONMO_416,Offshore North GBR,15,,,Moore,10:00,10,-16.881947,146.1837795,ONMO_BA2D,Offshore North GBR,Moore,Back2,Deep,,Zoe Meziere,29,10,2021,Cluster1
+Spis_ONMO_419,Offshore North GBR,14,,,Moore,10:00,10,-16.881947,146.1837795,ONMO_BA2D,Offshore North GBR,Moore,Back2,Deep,,Zoe Meziere,29,10,2021,Cluster1
+Spis_ONMO_421,Offshore North GBR,2,,,Moore,10:00,10,-16.881947,146.1837795,ONMO_BA2D,Offshore North GBR,Moore,Back2,Deep,,Zoe Meziere,29,10,2021,Cluster1
+Spis_ONMO_427,Offshore North GBR,9,,,Moore,14:30,5,-16.8820015,146.183993,ONMO_BA2S,Offshore North GBR,Moore,Back2,Shallow,,Zoe Meziere,29,10,2021,Cluster1
+Spis_ONMO_977,Torres Strait,,Spis_51_P4,,Masig,11:00,14,-9.74409,143.4157,TSMA_BA2D,Torres Strait,Masig,Back2,Deep,,Cynthia Riginos,16,3,2022,Cluster2
+Spis_PAOR_545,Inshore Central GBR,15,,,Pelorus,10:30,12,-18.57151,146.49538,PAOR_FL1D,Inshore Central GBR,Orpheus,Flank1,Deep,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAOR_546,Inshore Central GBR,14,,,Pelorus,10:30,12,-18.57151,146.49538,PAOR_FL1D,Inshore Central GBR,Orpheus,Flank1,Deep,,Zoe Meziere,13,1,2022,Cluster4
+Spis_PAOR_547,Inshore Central GBR,6,,,Pelorus,10:30,12,-18.57151,146.49538,PAOR_FL1D,Inshore Central GBR,Orpheus,Flank1,Deep,,Zoe Meziere,13,1,2022,Cluster4
+Spis_PAOR_548,Inshore Central GBR,5,,,Pelorus,10:30,12,-18.57151,146.49538,PAOR_FL1D,Inshore Central GBR,Orpheus,Flank1,Deep,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAOR_550,Inshore Central GBR,4,,,Pelorus,10:30,12,-18.57151,146.49538,PAOR_FL1D,Inshore Central GBR,Orpheus,Flank1,Deep,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAOR_551,Inshore Central GBR,11,,,Pelorus,10:30,12,-18.57151,146.49538,PAOR_FL1D,Inshore Central GBR,Orpheus,Flank1,Deep,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAPE_517,Inshore Central GBR,7,,,Pelorus,9:30,5,-18.53952,146.49918,PAPE_FR1S,Inshore Central GBR,Pelorus,Front1,Shallow,,Zoe Meziere,10,1,2022,Cluster4
+Spis_PAPE_528,Inshore Central GBR,14,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_529,Inshore Central GBR,8,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_530,Inshore Central GBR,5,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_531,Inshore Central GBR,10,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_532,Inshore Central GBR,13,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_533,Inshore Central GBR,11,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_535,Inshore Central GBR,15,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_538,Inshore Central GBR,4,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_539,Inshore Central GBR,3,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_540,Inshore Central GBR,1,,,Pelorus,10:00,13,-18.53935,146.4995,PAPE_FR1D,Inshore Central GBR,Pelorus,Front1,Deep,,Zoe Meziere,11,1,2022,Cluster1
+Spis_PAPE_541,Inshore Central GBR,12,,,Pelorus,10:00,13,-18.55054,146.48822,PAPE_BA1D,Inshore Central GBR,Pelorus,Back1,Deep,,Zoe Meziere,12,1,2022,Cluster1
+Spis_PAPE_542,Inshore Central GBR,14,,,Pelorus,10:00,13,-18.55054,146.48822,PAPE_BA1D,Inshore Central GBR,Pelorus,Back1,Deep,,Zoe Meziere,12,1,2022,Cluster1
+Spis_PAPE_543,Inshore Central GBR,3,,,Pelorus,10:00,13,-18.55054,146.48822,PAPE_BA1D,Inshore Central GBR,Pelorus,Back1,Deep,,Zoe Meziere,12,1,2022,Cluster1
+Spis_PAPE_558,Inshore Central GBR,1,,,Pelorus,14:00,3,-18.54103,146.48862,PAPE_BA2S,Inshore Central GBR,Pelorus,Back2,Shallow,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAPE_562,Inshore Central GBR,9,,,Pelorus,14:00,3,-18.54103,146.48862,PAPE_BA2S,Inshore Central GBR,Pelorus,Back2,Shallow,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAPE_564,Inshore Central GBR,11,,,Pelorus,14:00,3,-18.54103,146.48862,PAPE_BA2S,Inshore Central GBR,Pelorus,Back2,Shallow,,Zoe Meziere,13,1,2022,Cluster1
+Spis_PAPE_566,Inshore Central GBR,15,,,Pelorus,15:00,12,-18.54083,146.48846,PAPE_BA2D,Inshore Central GBR,Pelorus,Back2,Deep,,Zoe Meziere,14,1,2022,Cluster1
+Spis_TSAU_892,Torres Strait,,,,Aukane,15:00,5,-9.86762,143.3894,TSAU_BA1S,Torres Strait,Aukane,Back1,Shallow,2,Cynthia Riginos,12,3,2022,Cluster2
+Spis_TSAU_898,Torres Strait,,,,Aukane,15:00,5,-9.86762,143.3894,TSAU_BA1S,Torres Strait,Aukane,Back1,Shallow,1,Cynthia Riginos,12,3,2022,Cluster2
+Spis_TSDU_1128,Torres Strait,16,,,Dungeness,15:20,5,-9.9312,143.0054,TSDU_FR1S,Torres Strait,Dungeness,Front1,Shallow,2,Cynthia Riginos,20,3,2022,Cluster2
+Spis_TSMA_986,Torres Strait,,,,Masig,11:00,14,-9.74409,143.4157,TSMA_BA2D,Torres Strait,Masig,Back2,Deep,between 3 & 4,Cynthia Riginos,16,3,2022,Cluster2
