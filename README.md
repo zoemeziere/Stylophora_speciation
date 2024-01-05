@@ -1,4 +1,4 @@
-# Data, scripts and results for "Exploring coral speciation: five Stylophora pistillata taxa along a divergence continuum on the Great Barrier Reef"
+# Data, scripts and results for "Exploring coral speciation: five Stylophora pistillata taxa along a divergence continuum on the Great Barrier Reef" (2024, Evolutionary Applications)
 
 ## Data
 
