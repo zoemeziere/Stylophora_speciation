@@ -1,4 +1,4 @@
-### Scripts used to generate all figures and supplementary for Stylophora species complex paper ###
+### Scripts used to generate all figures
 
 #### Load required packages ####
 
