@@ -3,7 +3,7 @@
 ## Data
 
 * Stylo_all_final.vcf.gz - unfiltered VCF file obtained via IPYRAD
-* Spis_env_all_select.csv - envrionemntal data used for RDA analyses
+* Spis_env_all_select2.csv - envrionemntal data used for RDA analyses
 * Stylo_clusters_metadata.csv - metadata
 
 ## Scripts
