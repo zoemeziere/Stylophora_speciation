@@ -115,132 +115,6 @@ ggplot(data = gbr_feat) +
   geom_point(data = Moore_coordinates_nodepth, mapping = aes(x = Long, y = Lat), size = 5, colour = "grey20") 
   #geom_text_repel(data = Moore_coordinates_nodepth, mapping = aes(x = Long, y = Lat, label = Habitat),  hjust = 0, vjust = 0, size = 4)
 
-
-### Figure 2A ###
-
-PCA_all <- glPca(Stylo_genlight, parallel= TRUE) 
-PCA_all.df <- as.data.frame(PCA_all$scores)
-PC=1:10
-pve_all <- data.frame(PC, 100*PCA_all$eig[1:10]/sum(PCA_all$eig[1:10]))
-ggplot(PCA_all.df, aes(PC1, PC2, col = Stylo_clusters_metadata$Cluster)) + 
-  geom_point(stroke = 0, size=6, alpha=0.5, show.legend = TRUE) +
-  scale_colour_manual(values = c("darkslateblue", "tomato4", "deeppink4", "burlywood4", "darkslategrey", "yellow4")) +
-  coord_equal() + theme_bw() + theme(legend.position = "none", axis.text=element_text(size=16), axis.title=element_text(size=16)) +
-  labs(x= paste0("PC1 (", signif(pve_all$X100...PCA_all.eig.1.10..sum.PCA_all.eig.1.10..[1], 3), "%)"),
-       y = paste0("PC2 (", signif(pve_all$X100...PCA_all.eig.1.10..sum.PCA_all.eig.1.10..[2], 3), "%)"))
-
-### Figure 2B ###
-
-australia <- ozmaps::ozmap_states
-qld <- australia %>% filter(NAME == "Queensland")
-clusters_coords <- read.csv("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Maps/EcoCluster_coord.csv", header = TRUE)
-clusters_coords$total <- rowSums(clusters_coords[,c("Cluster1","Cluster2","Cluster3","Cluster4","Cluster5")])
-clusters_coords <- drop_na(clusters_coords) 
-clusters_coords$radius <- c("0.5", "0.6", "0.7", "0.8", "0.7", "0.6")
-clusters_coords <- clusters_coords[1:6,]
-
-ggplot(data = gbr_feat) +
-  theme_bw() +
-  theme(axis.title.x = element_blank(), axis.title.y = element_blank(), 
-        legend.position = "none", axis.text=element_text(size=25)) +
-  geom_sf(lwd = 0.01, fill = "grey") +
-  coord_sf(xlim = c(142, 155), ylim = c(-25, -9)) +
-  annotation_scale(location = "bl", width_hint = 0.5) +
-  annotation_north_arrow(location = "bl", which_north = "true",
-                         pad_x = unit(0.25, "in"), pad_y = unit(0.4, "in"),
-                         style = north_arrow_fancy_orienteering) +
-  scale_x_continuous(breaks = seq(142, 154, by =3)) +
-  geom_scatterpie(data=as.data.frame(clusters_coords), aes(x=Long, y=Lat), cols= c("Cluster1","Cluster2","Cluster3","Cluster4","Cluster5"), color=NA, pie_scale = 6) +
-  scale_fill_manual(values = c("darkslateblue", "tomato4", "deeppink4", "burlywood4", "darkslategrey")) 
-
-### Figure 1C ###
-
-K6_all_plot <-
-  ggplot(K6_all, aes(factor(Sample_name), probK6, fill = factor(V))) +
-  geom_col(color = "gray", size = 0.1) +
-  scale_fill_manual(values = K6cols) +
-  facet_grid(~fct_inorder(Stylo_clusters_metadata$Cluster), switch = "x", scales = "free", space = "free") +
-  theme_minimal(base_size =25) + labs(title = "", y = "Ancestry proportion", x = "") +
-  scale_y_continuous(expand = c(0, 0)) +
-  scale_x_discrete(expand = expand_scale(add = 1)) +
-  theme(
-    panel.spacing.x = unit(0.1, "lines"),
-    axis.text.x = element_blank(),
-    strip.text.x = element_blank(),
-    panel.grid = element_blank(),
-    legend.position="none",
-    plot.margin = unit(c(0, 0, 0, 0), "null"),
-    strip.clip = "off")  
-
-### FIGURE 3 ###
-
-
-
-
-### FIGURE 4 ###
-
-spis_env_matrix_noTS <- as.data.frame(read.csv("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Habitat/env_data/Spis_env_abundance_noTS.csv", header = TRUE))
-spis_env_matrix_noTS <- spis_env_matrix_noTS[!(spis_env_matrix$Cluster=="Torres Strait"),]
-spis_env_matrix_noTS <- spis_env_matrix_noTS[rowSums(is.na(spis_env_matrix_noTS))==0,]
-spis_env_matrix_noTS_std <- decostand(spis_env_matrix_noTS[,6:91],method = "standardize")
-spis_env_matrix_noTS <- cbind(spis_env_matrix_noTS_std, spis_env_matrix_noTS$Reef, spis_env_matrix_noTS$Zone)
-
-spis_abundance_matrix <- as.data.frame(read.csv("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Habitat/env_data/Spis_abundance.csv", header = TRUE))
-spis_abundance_matrix <- drop_na(spis_abundance_matrix)
-spis_abundance_matrix_noTS <- spis_abundance_matrix[1:53,]
-spis_abundance_matrix_noTS <- spis_abundance_matrix_noTS[!(spis_abundance_matrix_noTS$Site_code=="CBHE_FL1S" | spis_abundance_matrix_noTS$Site_code=="ONLI_BA1S" | spis_abundance_matrix_noTS$Site_code=="ONLI_FR2S"),]
-spis_abundance_matrix_noTS <- decostand(spis_abundance_matrix_noTS[,2:6], method = "hellinger")
-spis_abundance_matrix_noTS <- spis_abundance_matrix_noTS[,c("Cluster1", "Cluster3", "Cluster4", "Cluster5")]
-
-spis_env_matrix_noTS_select <- subset(spis_env_matrix_noTS, select = c(Depth,`spis_env_matrix_noTS$Zone`,temp_mean,temp_max,temp_daily_range,speed_mean,
-                                                                       EpiPAR_sg_mean,EpiPAR_sg_max,Secchi_mean,
-                                                                       Secchi_max,ubed90_median, `spis_env_matrix_noTS$Reef`))
-spis_env_matrix_noTS_select <- spis_env_matrix_noTS_select %>% 
-  rename(Habitat = `spis_env_matrix_noTS$Zone`,
-    Temp_daily_range = temp_daily_range,
-    Mean_light_intensity = EpiPAR_sg_mean)
-  
-prda_spis_abundance_noTS <- rda(formula = spis_abundance_matrix_noTS ~ . + Condition(`spis_env_matrix_noTS$Reef`), data = spis_env_matrix_noTS_select)
-RsquareAdj(prda_all_fwdsel) 
-
-prda_all_fwdsel <- ordiR2step(rda(formula = spis_abundance_matrix_noTS ~ 1 + Condition(`spis_env_matrix_noTS$Reef`), data = spis_env_matrix_noTS_select),
-                              scope = formula(prda_spis_abundance_noTS), 
-                              direction = "forward",
-                              R2scope = TRUE, 
-                              pstep = 1000, trace = FALSE)
-
-finalpRDA <- rda(formula = spis_abundance_matrix_noTS ~ Condition(`spis_env_matrix_noTS$Reef`) + 
-               Habitat + Temp_daily_range + Secchi_max + 
-               Mean_light_intensity, data = spis_env_matrix_noTS_select)
-RsquareAdj(finalpRDA) 
-anova.cca(final, step = 1000, by = "term")
-anova.cca(final, step = 1000, by = "axis")
-anova.cca(final, step = 1000, by = "margin")
-
-clusters <- c(1,3,4,5)
-
-ii=summary(finalpRDA)
-st=as.data.frame(ii$sites[,1:2])
-sp=as.data.frame(ii$species[,1:2])
-yz=as.data.frame(ii$biplot[,1:2])
-plot <- ggplot() +
-  geom_point(data = st,aes(RDA1,RDA2),size=2, color="grey") +
-  geom_point(data = sp,aes(RDA1,RDA2),size=10, stroke = 4, shape=21, color= c("Cluster1"="#8a67c1", "Cluster3"="#2da0a1", "Cluster4"="#c16d37", "Cluster5"="#729c45")) +
-  #geom_text(data = sp, aes(RDA1,RDA2,label=row.names(sp)), position = position_nudge(y = -0.05), size=8) +
-  geom_segment(data = yz,aes(x = 0, y = 0, xend = RDA1, yend = RDA2), 
-               arrow = arrow(angle=22.5,length = unit(0.35,"cm"),
-                             type = "open"),linetype=1, size=0.6) +
-  geom_text(data = yz,aes(RDA1,RDA2,label=row.names(yz)), position = position_nudge(y= 0.1, x= -0.1), size=8) +
-  labs(x=paste("RDA 1 (", format(100 *ii$cont[[1]][2,1], digits=3), "%)", sep=""),
-       y=paste("RDA 2 (", format(100 *ii$cont[[1]][2,2], digits=3), "%)", sep="")) +
-  geom_hline(yintercept=0,linetype=3,size=0.5) + 
-  geom_vline(xintercept=0,linetype=3,size=0.5) +
-  theme_bw() +
-  theme(axis.text=element_text(size=20), axis.title=element_text(size=20))
-
-ggsave(file="prda.svg", plot=plot, width=10, height=7)
-
-
 #### Figure 2A ####
 
 PCA_all <- glPca(Stylo_genlight, parallel= TRUE) 
@@ -283,12 +157,14 @@ ggplot(data = gbr_feat) +
   geom_scatterpie(data=as.data.frame(clusters_coords), aes(x=Long, y=Lat), cols= c("Cluster1","Cluster2","Cluster3","Cluster4","Cluster5"), color=NA, pie_scale = 5) +
   scale_fill_manual(values = c("#8a67c1", "#bf557c", "#2da0a1", "#c16d37", "#729c45")) 
 
-
 #### Figure 2C ####
 K6_admixture <- read.table("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Admixture/all/Stylo_sf095_noclones_ld.6.Q")
+
 K6_all <- cbind(Stylo_clusters_metadata, K6_admixture)
 K6_all <- gather(K6_all, key="V", value="probK6", 22:27)
+
 K6cols <- c("V1" = "#7a4988", "V2" = "#729c45", "V3" = "#2da0a1", "V4" = "#bf557c", "V5" = "#8a67c1", "V6" = "#c16d37")
+
 K6_all_plot <-
   ggplot(K6_all, aes(factor(Sample_name), probK6, fill = factor(V))) +
   geom_col(position='dodge') +
@@ -358,7 +234,7 @@ fstplot<- fst_between_pops %>%
 
 ggsave(file="plotfst.svg", plot=fstplot, width=9, height=7)
 
-#### Figure 4 ####
+### FIGURE 4 ###
 
 spis_env_matrix_noTS <- as.data.frame(read.csv("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Habitat/env_data/Spis_env_abundance_noTS.csv", header = TRUE))
 spis_env_matrix_noTS <- spis_env_matrix_noTS[!(spis_env_matrix$Cluster=="Torres Strait"),]
@@ -373,6 +249,14 @@ spis_abundance_matrix_noTS <- spis_abundance_matrix_noTS[!(spis_abundance_matrix
 spis_abundance_matrix_noTS <- decostand(spis_abundance_matrix_noTS[,2:6], method = "hellinger")
 spis_abundance_matrix_noTS <- spis_abundance_matrix_noTS[,c("Cluster1", "Cluster3", "Cluster4", "Cluster5")]
 
+spis_env_matrix_noTS_select <- subset(spis_env_matrix_noTS, select = c(Depth,`spis_env_matrix_noTS$Zone`,temp_mean,temp_max,temp_daily_range,speed_mean,
+                                                                       EpiPAR_sg_mean,EpiPAR_sg_max,Secchi_mean,
+                                                                       Secchi_max,ubed90_median, `spis_env_matrix_noTS$Reef`))
+spis_env_matrix_noTS_select <- spis_env_matrix_noTS_select %>% 
+  rename(Habitat = `spis_env_matrix_noTS$Zone`,
+    Temp_daily_range = temp_daily_range,
+    Mean_light_intensity = EpiPAR_sg_mean)
+  
 prda_spis_abundance_noTS <- rda(formula = spis_abundance_matrix_noTS ~ . + Condition(`spis_env_matrix_noTS$Reef`), data = spis_env_matrix_noTS_select)
 RsquareAdj(prda_all_fwdsel) 
 
@@ -382,31 +266,103 @@ prda_all_fwdsel <- ordiR2step(rda(formula = spis_abundance_matrix_noTS ~ 1 + Con
                               R2scope = TRUE, 
                               pstep = 1000, trace = FALSE)
 
-final <- rda(formula = spis_abundance_matrix_noTS ~ Condition(`spis_env_matrix_noTS$Reef`) + 
-               `spis_env_matrix_noTS$Zone` + temp_daily_range + Secchi_max + 
-               EpiPAR_sg_mean, data = spis_env_matrix_noTS_select)
-
+finalpRDA <- rda(formula = spis_abundance_matrix_noTS ~ Condition(`spis_env_matrix_noTS$Reef`) + 
+               Habitat + Temp_daily_range + Secchi_max + 
+               Mean_light_intensity, data = spis_env_matrix_noTS_select)
+RsquareAdj(finalpRDA) 
 anova.cca(final, step = 1000, by = "term")
 anova.cca(final, step = 1000, by = "axis")
 anova.cca(final, step = 1000, by = "margin")
-summary(final)
-RsquareAdj(final) 
 
-ii=summary(final)
+clusters <- c(1,3,4,5)
+
+ii=summary(finalpRDA)
 st=as.data.frame(ii$sites[,1:2])
 sp=as.data.frame(ii$species[,1:2])
 yz=as.data.frame(ii$biplot[,1:2])
-ggplot() +
-  geom_point(data = st,aes(RDA1,RDA2),size=3) +
-  #geom_point(data = sp,aes(RDA1,RDA2),size=6, shape=2) +
+plot <- ggplot() +
+  geom_point(data = st,aes(RDA1,RDA2),size=2, color="grey") +
+  geom_point(data = sp,aes(RDA1,RDA2),size=10, stroke = 4, shape=21, color= c("Cluster1"="#8a67c1", "Cluster3"="#2da0a1", "Cluster4"="#c16d37", "Cluster5"="#729c45")) +
   #geom_text(data = sp, aes(RDA1,RDA2,label=row.names(sp)), position = position_nudge(y = -0.05), size=8) +
   geom_segment(data = yz,aes(x = 0, y = 0, xend = RDA1, yend = RDA2), 
                arrow = arrow(angle=22.5,length = unit(0.35,"cm"),
-                             type = "closed"),linetype=1, size=0.6) +
-  geom_text(data = yz,aes(RDA1,RDA2,label=row.names(yz)), position = position_nudge(y = 0.1), size=4) +
+                             type = "open"),linetype=1, size=0.6) +
+  geom_text(data = yz,aes(RDA1,RDA2,label=row.names(yz)), position = position_nudge(y= 0.1, x= -0.1), size=8) +
   labs(x=paste("RDA 1 (", format(100 *ii$cont[[1]][2,1], digits=3), "%)", sep=""),
        y=paste("RDA 2 (", format(100 *ii$cont[[1]][2,2], digits=3), "%)", sep="")) +
   geom_hline(yintercept=0,linetype=3,size=0.5) + 
   geom_vline(xintercept=0,linetype=3,size=0.5) +
   theme_bw() +
   theme(axis.text=element_text(size=20), axis.title=element_text(size=20))
+
+ggsave(file="prda.svg", plot=plot, width=10, height=7)
+
+#### Figure 4 ####
+
+#### Figure 5 ####
+
+#Environmental matrix
+Spis_env_all_select <- as.data.frame(read.csv("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Habitat/env_data/Spis_env_all_select.csv", header = TRUE))
+Spis_env_all_select2 <- as.data.frame(read.csv("/Users/zoemeziere/Documents/PhD/Chapter1_analyses/GBR_RefGenome/Habitat/env_data/Spis_env_all_select2.csv", header = TRUE))
+
+Stylo_metadata_rda <- Stylo_metadata[!(Stylo_metadata$Cluster=="Hyb"),]
+Stylo_metadata_rda <- Stylo_metadata_rda[!(Stylo_metadata_rda$EcoLocationID_short=="ONLI_FR2S" | 
+                                             Stylo_metadata_rda$EcoLocationID_short=="ONLI_BA1S" | 
+                                             Stylo_metadata_rda$EcoLocationID_short=="TSDU_BA3S" | 
+                                             Stylo_metadata_rda$EcoLocationID_short=="CBHE_LA2S"),]
+Spis_env_individuals_all <- cbind(sample_name = Stylo_metadata_rda$Sample_name, Site_code = Stylo_metadata_rda$EcoLocationID_short)
+Spis_env_individuals_all <- merge(Spis_env_individuals_all, Spis_env_all_select2, by = "Site_code", all.x=T)
+Spis_env_individuals_all <- Spis_env_individuals_all %>% arrange(sample_name)
+Spis_env_individuals_std_all <- decostand(Spis_env_individuals_all[,6:15], method = "standardize")
+Spis_env_individuals_std_all<- Spis_env_individuals_std_all[ , colSums(is.na(Spis_env_individuals_std_all))==0]
+
+#Genotypes matrix
+Stylo_genlight_rda <- Stylo_genlight
+ind_to_drop <- c("Spis_CBHE_292", "Spis_DUN_1172", "Spis_DUN_1174", 
+                 "Spis_ONLI_465", "Spis_ONLI_467", "Spis_ONLI_468", 
+                 "Spis_ONLI_810", "Spis_ONLI_814", "Spis_ONLI_815", 
+                 "Spis_ONLI_817", "Spis_ONLI_820", "Spis_ONLI_822", 
+                 "Spis_ONLI_823", "Spis_ONMO_376", "Spis_ONMO_378", "Spis_ONMO_380")
+Stylo_genlight_rda <- gl.drop.ind(Stylo_genlight_rda, ind_to_drop)
+Stylo_genind_rda <- gl2gi(Stylo_genlight_rda)
+Stylo_genind_rda$tab <- Stylo_genind_rda$tab[ , colSums(is.na(Stylo_genind_rda$tab))==0]
+Stylo_genind_rda$tab <- decostand(Stylo_genind_rda$tab, method = "hellinger")
+
+#Condition matrix
+coordinates_all <- cbind(Spis_env_individuals_all$lat, Spis_env_individuals_all$lon)
+dbmem_vectors <- dbmem(coordinates_all)
+
+prda_spis_genomic <- rda(formula = Stylo_genind_rda$tab ~ . + Condition(dbmem_vectors$MEM1, dbmem_vectors$MEM2, dbmem_vectors$MEM3), data = Spis_env_individuals_std_all)
+prda_spis_genomic_fwdsel <- ordiR2step(rda(formula = Stylo_genind_rda$tab ~ 1 + Condition(dbmem_vectors$MEM1, dbmem_vectors$MEM2, dbmem_vectors$MEM3), data = Spis_env_individuals_std_all), 
+                                       scope = formula(prda_spis_genomic), direction = "forward", R2scope = TRUE, pstep = 1000, trace = FALSE)
+
+prda_spis_genomic_sign <- rda(formula = Stylo_genind_rda$tab ~ Condition(dbmem_vectors$MEM1, dbmem_vectors$MEM2, dbmem_vectors$MEM3) + 
+                                temp_mean + Secchi_mean + EpiPAR_sg_mean + Depth + 
+                                speed_mean + speed_median, data = Spis_env_individuals_std_all)
+
+RsquareAdj(prda_spis_genomic_sign) 
+anova.cca(prda_spis_genomic_sign, step = 1000)
+anova.cca(prda_spis_genomic_sign, step = 1000, by = "term")
+anova.cca(prda_spis_genomic_sign, step = 1000, by = "axis")
+anova.cca(prda_spis_genomic_sign, step = 1000, by = "margin")
+
+ii=summary(prda_spis_genomic_fwdsel)
+st=as.data.frame(ii$sites[,1:2])
+sp=as.data.frame(ii$species[,1:2])
+yz=as.data.frame(ii$biplot[,1:2])
+
+pdf("RDA_genotypes_all_taxa2.pdf", width = 10, height = 5)
+ggplot() +
+  geom_point(data = st, aes(RDA1,RDA2, col= Stylo_metadata_rda$Cluster), size=6, alpha=0.5, stroke=0) +
+  scale_colour_manual(values = c("#8a67c1", "#bf557c", "#2da0a1", "#c16d37", "#729c45")) +
+  #scale_colour_manual(values = c("#a82552", "#4e8440", "#8b8b00", "#763138", "#5ac7ac", "#438d7d", "#99c648", "#c0632d", "#b62536", "#d89432", "#796c32")) +
+  geom_segment(data = yz,aes(x = 0, y = 0, xend = RDA1, yend = RDA2), 
+               arrow = arrow(length = unit(0.1,"cm"), type = "open"),linetype=1, size=0.3) +
+  geom_text(data = yz,aes(RDA1,RDA2,label=row.names(yz)), position = position_nudge(y = 0.1), size=2) +
+  labs(x=paste("RDA 1 (", format(100 *ii$cont[[1]][2,1], digits=3), "%)", sep=""),
+       y=paste("RDA 2 (", format(100 *ii$cont[[1]][2,2], digits=3), "%)", sep="")) +
+  theme_bw() +
+  theme(axis.text=element_text(size=10), axis.title=element_text(size=10))
+dev.off()
+
+
