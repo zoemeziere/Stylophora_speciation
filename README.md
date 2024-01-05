@@ -3,6 +3,8 @@
 ## Data
 
 * Stylo_all_final.vcf.gz - unfiltered VCF file obtained via IPYRAD
+* Spis_env_all_select.csv - envrionemntal data used for RDA analyses
+* Stylo_clusters_metadata.csv - metadata
 
 ## Scripts
 
@@ -33,5 +35,16 @@
     * optimse_manuel.py - optimise demographic model
     * demo_models.py - detail of demographic models
     * compare_model.py - compares alternative models
-    * condidence intervals - calculate confidence intervals around optimised parameters
+    * condidence_intervals.py - calculate confidence intervals around optimised parameters
     * nonparameteric_bootstrap - bootstrapping best fit model
+    * LRT_sec_contact.py - Likelihood ratio test
+ 
+### 5. Redudancy analyses (RDA)
+
+* RAD.R - takes genotypes as reponse matrix, environmental data as explanatory matrix and dbMEME vectors as conditional matrix
+
+### Figures and Supp Figures
+
+* Figures.R - R script to reproduce the figures in the main manuscript
+* SuppFigures.R - R script to reproduce the figures in the supplementay material
+   
