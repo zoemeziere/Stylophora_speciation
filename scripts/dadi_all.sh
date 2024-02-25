@@ -50,7 +50,7 @@ python nonparametric_bootstrap_subsample.py C1CBHE-C5CBHE sym_migration 100 -g 7
 
 # Step 3 - calculate confidence intervals
 
-python confindence_intervals.py C1CBHE-C5CBHE sym_migration 100 0.01 -o 10.8094 10.0667 0.0034 16.631
+python FIM_confindence_intervals.py C1CBHE-C5CBHE sym_migration 100 0.01 -o 10.8094 10.0667 0.0034 16.631
 
 # Step 3 - likelihood ratio test to compare models
 
