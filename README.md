@@ -47,4 +47,9 @@
 
 * Figures.R - R script to reproduce the figures in the main manuscript
 * SuppFigures.R - R script to reproduce the figures in the supplementay material
+
+## Figures
+
+High quality figures included in the main manuscript.
+
    
