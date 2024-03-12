@@ -11,12 +11,9 @@
 #SBATCH --array=1-30
 #SBATCH --output=im2m_C1CBHE-C5CBHE_%A_%a.out
 
-#cd ${PBS_O_WORKDIR}
-
-# to activate conda
-source /QRISdata/Q5253/miniconda3/etc/profile.d/conda.sh
-
-# to activate an environment 
+# to activate conda and dadi environment
+module load anaconda3/2022.05
+source $EBROOTANACONDA3/etc/profile.d/conda.sh
 conda activate dadi
 
 # to access the directory contains the scripts
